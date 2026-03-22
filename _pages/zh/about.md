@@ -51,8 +51,8 @@ lang_url: /
 <h2>最新消息</h2>
 <ul>
   <li>
-    <span class="news-date">2026 年 6 月<br/><span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
-    <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
+    <span class="news-date">2026 年 6 月<br/><span class="cv-tag cv-tag--upcoming upcoming--mobile">Upcoming</span></span>
+    <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。<span class="cv-tag cv-tag--upcoming upcoming--desktop">Upcoming</span></span>
   </li>
   <li>
     <span class="news-date">2026 年 3 月</span>

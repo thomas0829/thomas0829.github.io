@@ -211,4 +211,14 @@
     flex: 1;
   }
 
+  .upcoming--desktop {
+    display: inline-block;
+    @media (max-width: 600px) { display: none; }
+  }
+
+  .upcoming--mobile {
+    display: none;
+    @media (max-width: 600px) { display: inline-block; }
+  }
+
 }

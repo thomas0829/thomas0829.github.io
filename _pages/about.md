@@ -54,8 +54,8 @@ I also interned at <strong>Chang Chun Group</strong> as a Robotics Engineer, whe
 <h2>News</h2>
 <ul>
   <li>
-    <span class="news-date">Jun 2026<br/><span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
-    <span class="news-content">Joining <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern.</span>
+    <span class="news-date">Jun 2026<br/><span class="cv-tag cv-tag--upcoming upcoming--mobile">Upcoming</span></span>
+    <span class="news-content">Joining <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern. <span class="cv-tag cv-tag--upcoming upcoming--desktop">Upcoming</span></span>
   </li>
   <li>
     <span class="news-date">Mar 2026</span>
