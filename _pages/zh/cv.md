@@ -17,7 +17,7 @@ lang_url: /cv/
     <a href="tel:+12065791447"><i class="fas fa-phone"></i> (206) 579-1447</a>
   </div>
   <div class="cv-header__download">
-    <a href="#" onclick="document.getElementById('resume-modal').classList.add('active');return false;"><i class="fas fa-download"></i> 下載履歷</a>
+    <a href="#" onclick="openResumeModal();return false;"><i class="fas fa-download"></i> 下載履歷</a>
   </div>
 </div>
 
@@ -312,15 +312,3 @@ lang_url: /cv/
   </div>
 </div>
 
-<div id="resume-modal" class="resume-modal" onclick="if(event.target===this)this.classList.remove('active')">
-  <div class="resume-modal__inner">
-    <div class="resume-modal__header">
-      <span>履歷預覽</span>
-      <button onclick="document.getElementById('resume-modal').classList.remove('active')">&times;</button>
-    </div>
-    <iframe class="resume-modal__frame" src="https://docs.google.com/gview?url=https://thomas0829.github.io/files/Resume_2026.docx&embedded=true"></iframe>
-    <div class="resume-modal__footer">
-      <a href="/files/Resume_2026.docx" download><i class="fas fa-download"></i> 下載（.docx）</a>
-    </div>
-  </div>
-</div>

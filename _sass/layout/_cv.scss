@@ -416,6 +416,14 @@
     flex-direction: column;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+
+    @media (max-width: 600px) {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      max-width: none;
+      box-shadow: none;
+    }
   }
 
   &__header {
@@ -426,6 +434,7 @@
     border-bottom: 1px solid var(--global-border-color);
     font-weight: 600;
     font-size: 0.95em;
+    flex-shrink: 0;
 
     button {
       background: none;
@@ -434,8 +443,13 @@
       line-height: 1;
       cursor: pointer;
       color: var(--global-text-color-light);
-      padding: 0 0.2em;
+      padding: 0.2em 0.4em;
       transition: color 0.2s;
+      min-width: 36px;
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         color: var(--global-text-color);
@@ -453,6 +467,7 @@
     padding: 0.8em 1.2em;
     border-top: 1px solid var(--global-border-color);
     text-align: center;
+    flex-shrink: 0;
 
     a {
       display: inline-flex;

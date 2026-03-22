@@ -1,15 +1,17 @@
 {% include base_path %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    {% if page.lang == 'zh' %}
-      <a href="{{ base_path }}/zh/" class="masthead__title{% unless page.permalink == '/zh/' %} masthead__title--away{% endunless %}">
-        <i class="fas fa-house-chimney masthead__home-icon"></i>李英群
-      </a>
-    {% else %}
-      <a href="{{ base_path }}/" class="masthead__title{% unless page.permalink == '/' %} masthead__title--away{% endunless %}">
-        <i class="fas fa-house-chimney masthead__home-icon"></i>{{ site.title }}
-      </a>
-    {% endif %}
+    <div class="masthead__title-wrap">
+      {% if page.lang == 'zh' %}
+        <a href="{{ base_path }}/zh/" class="masthead__title{% unless page.permalink == '/zh/' %} masthead__title--away{% endunless %}">
+          <i class="fas fa-house-chimney masthead__home-icon"></i><span class="masthead__name">李英群</span>
+        </a>
+      {% else %}
+        <a href="{{ base_path }}/" class="masthead__title{% unless page.permalink == '/' %} masthead__title--away{% endunless %}">
+          <i class="fas fa-house-chimney masthead__home-icon"></i><span class="masthead__name">{{ site.title }}</span>
+        </a>
+      {% endif %}
+    </div>
 
     <nav class="masthead__nav">
       {% if page.lang == 'zh' %}

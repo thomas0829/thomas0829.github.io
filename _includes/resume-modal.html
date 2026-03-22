@@ -1,0 +1,24 @@
+<div id="resume-modal" class="resume-modal" onclick="if(event.target===this){closeResumeModal()}">
+  <div class="resume-modal__inner">
+    <div class="resume-modal__header">
+      <span>{% if page.lang == 'zh' %}履歷預覽{% else %}Resume Preview{% endif %}</span>
+      <button onclick="closeResumeModal()">&times;</button>
+    </div>
+    <iframe class="resume-modal__frame" src="https://docs.google.com/gview?url=https://thomas0829.github.io/files/Resume_2026.pdf&embedded=true"></iframe>
+    <div class="resume-modal__footer">
+      <a href="/files/Resume_2026.pdf" download><i class="fas fa-download"></i> {% if page.lang == 'zh' %}下載（PDF）{% else %}Download (PDF){% endif %}</a>
+    </div>
+  </div>
+</div>
+<script>
+function openResumeModal(){
+  document.getElementById('resume-modal').classList.add('active');
+  document.querySelector('.masthead').style.zIndex='-1';
+  document.body.style.overflow='hidden';
+}
+function closeResumeModal(){
+  document.getElementById('resume-modal').classList.remove('active');
+  document.querySelector('.masthead').style.zIndex='';
+  document.body.style.overflow='';
+}
+</script>
