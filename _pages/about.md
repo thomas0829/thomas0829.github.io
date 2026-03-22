@@ -42,7 +42,11 @@ I collaborate with the <strong><a href="https://prior.allenai.org/">PRIOR team a
 </p>
 
 <p>
-Before that, I interned at <strong>Chang Chun Group</strong> as a Robotics Engineer, where I built a digital twin and imitation learning platform for the ALOHA VX300S arm in NVIDIA Isaac Sim. I also worked on the <strong>Husky Robotics</strong> team at UW, developing real-time perception and depth-sensing stacks for a Mars rover competing in the University Rover Challenge. This summer, I'll be joining <strong>Amazon</strong> as a Software Development Engineer Intern.
+During my undergraduate studies, I conducted research at the <strong>DRES Lab at the University of Illinois at Urbana-Champaign (UIUC)</strong>, co-advised by <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> and <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a>, focusing on deep learning-based medical image segmentation from shoulder ultrasound images. This work led to a first-author publication in <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a> (2024).
+</p>
+
+<p>
+I also interned at <strong>Chang Chun Group</strong> as a Robotics Engineer, where I built a digital twin and imitation learning platform for the ALOHA VX300S arm in NVIDIA Isaac Sim, and worked on the <strong>Husky Robotics</strong> team at UW, developing real-time perception and depth-sensing stacks for a Mars rover competing in the University Rover Challenge. This summer, I'll be joining <strong>Amazon</strong> as a Software Development Engineer Intern.
 </p>
 </div>
 
@@ -50,8 +54,8 @@ Before that, I interned at <strong>Chang Chun Group</strong> as a Robotics Engin
 <h2>News</h2>
 <ul>
   <li>
-    <span class="news-date">Jun 2026</span>
-    <span class="news-content">Joining <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern (Jun 15 — Sep 4).</span>
+    <span class="news-date">Jun 2026<br/><span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
+    <span class="news-content">Joining <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern.</span>
   </li>
   <li>
     <span class="news-date">Mar 2026</span>

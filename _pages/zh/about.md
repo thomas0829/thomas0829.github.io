@@ -39,7 +39,11 @@ lang_url: /
 </p>
 
 <p>
-之前在<strong>長春集團</strong>擔任 Robotics Engineer Intern，用 NVIDIA Isaac Sim 為 ALOHA VX300S 開發 digital twin 與 imitation learning 平台。也在華盛頓大學 <strong>Husky Robotics</strong> 團隊擔任軟體工程師，為參加 University Rover Challenge 的火星探測車開發即時 perception 與 depth sensing 系統。今年夏天將加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
+大學期間，我在<strong>伊利諾大學厄巴納-香檳分校（UIUC）DRES Lab</strong> 進行研究，由 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> 與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 共同指導，專注於基於深度學習的肩部超音波影像軟組織分割，並以第一作者發表論文於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>（2024）。
+</p>
+
+<p>
+之前在<strong>長春集團</strong>擔任 Robotics Engineer Intern，用 NVIDIA Isaac Sim 為 ALOHA VX300S 開發 digital twin 與 imitation learning 平台，也在華盛頓大學 <strong>Husky Robotics</strong> 團隊擔任軟體工程師，為參加 University Rover Challenge 的火星探測車開發即時 perception 與 depth sensing 系統。今年夏天將加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
 </p>
 </div>
 
@@ -47,8 +51,8 @@ lang_url: /
 <h2>最新消息</h2>
 <ul>
   <li>
-    <span class="news-date">2026 年 6 月</span>
-    <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern（6/15 — 9/4）。</span>
+    <span class="news-date">2026 年 6 月<br/><span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
+    <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
   </li>
   <li>
     <span class="news-date">2026 年 3 月</span>

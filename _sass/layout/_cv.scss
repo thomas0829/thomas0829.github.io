@@ -463,6 +463,12 @@
     width: 100%;
   }
 
+  &__body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
   &__footer {
     padding: 0.8em 1.2em;
     border-top: 1px solid var(--global-border-color);

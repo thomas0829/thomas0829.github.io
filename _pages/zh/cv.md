@@ -110,7 +110,7 @@ lang_url: /cv/
         <span class="cv-timeline__role">Research Assistant</span>
         <span class="cv-timeline__date">2022 年 6 月 — 2024 年 6 月</span>
       </div>
-      <div class="cv-timeline__org">DRES Lab, University of Illinois at Urbana-Champaign（UIUC）— Prof. Yih-Kuen Jan</div>
+      <div class="cv-timeline__org">DRES Lab, University of Illinois at Urbana-Champaign（UIUC）— <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> &amp; <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a></div>
       <ul class="cv-timeline__details">
         <li>研究醫學影像辨識技術，實作 U-Net、Mask R-CNN 及 DeepLab V3+ 進行肩部超音波影像軟組織自動 segmentation</li>
         <li>以第一作者發表論文於 IEEE Access（2024）</li>
@@ -199,16 +199,16 @@ lang_url: /cv/
   <h2>論文發表</h2>
   <ol class="cv-pub-list">
     <li>
-      Abhay Deshpande, Maya Guru, Rose Hendrix, et al. (<span class="pub-me">Ying-Chun Lee</span>), "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em>arXiv:2603.16861</em>, 2026. <a href="https://arxiv.org/abs/2603.16861">arXiv</a>
+      Abhay Deshpande, Maya Guru, Rose Hendrix, Snehal Jauhri, Ainaz Eftekhar, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Georgia Chalvatzaki, Dhruv Shah, and Ranjay Krishna, "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em>arXiv:2603.16861</em>, 2026. <a href="https://arxiv.org/abs/2603.16861">arXiv</a>
     </li>
     <li>
-      Yejin Kim, Wilbert Pumacay, Omar Rayyan, et al. (<span class="pub-me">Ying-Chun Lee</span>), "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em>已投稿至 RSS 2026</em>. <a href="https://arxiv.org/abs/2602.11337">arXiv</a>
+      Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em>已投稿至 RSS 2026</em>. <a href="https://arxiv.org/abs/2602.11337">arXiv</a>
     </li>
     <li>
-      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, et al., "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>已投稿至 ICML 2026</em>. <a href="https://arxiv.org/abs/2602.19313">arXiv</a>
+      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>已投稿至 ICML 2026</em>. <a href="https://arxiv.org/abs/2602.19313">arXiv</a>
     </li>
     <li>
-      <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, et al., "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em>IEEE Access</em>，第 12 卷，頁 111,481–111,492，2024 年 7 月. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>
+      <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, Chia-Chun Hsiao, Pu-Chun Mo, Jiaqi Guo, and Yih-Kuen Jan, "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em>IEEE Access</em>，第 12 卷，頁 111,481–111,492，2024 年 7 月. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>
     </li>
   </ol>
 </div>
