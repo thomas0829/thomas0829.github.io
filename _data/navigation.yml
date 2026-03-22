@@ -1,12 +1,6 @@
 main:
-  - title: "News"
-    url: /#news
-
   - title: "Publications"
-    url: /#publications
-
-  - title: "Experience"
-    url: /#experience
+    url: /publications/
 
   - title: "CV"
-    url: /files/Resume_2026.docx
+    url: /cv/

@@ -1,35 +1,40 @@
 {% include base_path %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' or link.url contains '/files/' %}
-              <li class="masthead__menu-item">
-                <a href="{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% elsif link.url contains '#' %}
-              <li class="masthead__menu-item">
-                <a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% else %}
-              {% assign domain = base_path %}
-              <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    {% if page.lang == 'zh' %}
+      <a href="{{ base_path }}/zh/" class="masthead__title{% unless page.permalink == '/zh/' %} masthead__title--away{% endunless %}">
+        <i class="fas fa-house-chimney masthead__home-icon"></i>李英群
+      </a>
+    {% else %}
+      <a href="{{ base_path }}/" class="masthead__title{% unless page.permalink == '/' %} masthead__title--away{% endunless %}">
+        <i class="fas fa-house-chimney masthead__home-icon"></i>{{ site.title }}
+      </a>
+    {% endif %}
+
+    <nav class="masthead__nav">
+      {% if page.lang == 'zh' %}
+        {% assign nav_items = site.data.navigation_zh.main %}
+      {% else %}
+        {% assign nav_items = site.data.navigation.main %}
+      {% endif %}
+      {% for link in nav_items %}
+        <a href="{{ base_path }}{{ link.url }}" {% if page.url == link.url %}class="active"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="masthead__actions">
+      <div class="lang-seg">
+        {% if page.lang == 'zh' %}
+          <a href="{{ page.lang_url | default: '/' }}" class="lang-seg__item">EN</a>
+          <span class="lang-seg__item lang-seg__item--active">中文</span>
+        {% else %}
+          <span class="lang-seg__item lang-seg__item--active">EN</span>
+          <a href="{{ page.lang_url | default: '/zh/' }}" class="lang-seg__item">中文</a>
+        {% endif %}
+      </div>
+      <div id="theme-toggle" class="theme-btn">
+        <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+      </div>
     </div>
   </div>
 </div>

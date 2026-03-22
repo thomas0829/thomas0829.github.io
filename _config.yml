@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ying-Chun (Thomas) Lee"
+title                    : "Ying-Chun Lee"
 title_separator          : "-"
-name                     : &name "Ying-Chun (Thomas) Lee"
+name                     : &name "Ying-Chun Lee"
 description              : &description "M.S. in ECE @ UW | Embodied AI & Robotics"
 url                      : https://thomas0829.github.io
 baseurl                  : ""
@@ -20,7 +20,7 @@ repository               : "thomas0829/thomas0829.github.io"
 # Site Author
 author:
   avatar           : "profile.jpg"
-  name             : "Ying-Chun (Thomas) Lee"
+  name             : "Ying-Chun Lee"
   pronouns         : "he/him"
   bio              : "M.S. in ECE @ UW Seattle. Embodied AI, Robotics, and Software Engineering."
   location         : "Seattle, WA"
@@ -29,7 +29,7 @@ author:
   email            : "thomas910829@gmail.com"
 
   # Academic websites
-  googlescholar    : # Add your Google Scholar URL when available
+  googlescholar    : "https://scholar.google.com/citations?user=mTx-qU0AAAAJ"
 
   # Repositories and software development
   github           : "thomas0829"
@@ -98,7 +98,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "images/profile.jpg"
+og_image                 : "og-image.png"
 og_description           : "Ying-Chun (Thomas) Lee — M.S. in ECE @ UW. Embodied AI, Robotics, and Software Engineering."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -175,19 +175,7 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+collections: {}
 
 
 # These settings control how pages and collections are included in the site
