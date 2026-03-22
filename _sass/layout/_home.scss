@@ -165,12 +165,48 @@
 /* --- Publications Section --- */
 .home-publications {
   .pub-item {
-    padding: 0.8em 0;
+    display: flex;
+    gap: 1.2em;
+    padding: 1em 0;
     border-bottom: 1px solid var(--global-border-color);
 
     &:last-child {
       border-bottom: none;
     }
+
+    @media (max-width: 580px) {
+      flex-direction: column;
+      gap: 0.6em;
+    }
+  }
+
+  .pub-thumb {
+    flex-shrink: 0;
+    width: 180px;
+    align-self: center;
+
+    @media (max-width: 580px) {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--global-border-color);
+      object-fit: cover;
+      transition: box-shadow 0.2s ease;
+
+      &:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+      }
+    }
+  }
+
+  .pub-content {
+    flex: 1;
+    min-width: 0;
   }
 
   .pub-title {

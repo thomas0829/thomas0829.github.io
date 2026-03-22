@@ -77,38 +77,60 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 <h2>Publications</h2>
 
 <div class="pub-item">
-  <div class="pub-title">MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation</div>
-  <div class="pub-authors">Abhay Deshpande, Maya Guru, Rose Hendrix, et al. (<span class="me">Ying-Chun Lee</span>)</div>
-  <div class="pub-venue">arXiv preprint, 2026</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2603.16861">arXiv</a>
+  <div class="pub-thumb">
+    <img src="/images/papers/molmobot.jpg" alt="MolmoB0T" />
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation</div>
+    <div class="pub-authors">Abhay Deshpande, Maya Guru, Rose Hendrix, et al. (<span class="me">Ying-Chun Lee</span>)</div>
+    <div class="pub-venue">arXiv preprint, 2026</div>
+    <div class="pub-links">
+      <a href="https://allenai.org/blog/molmobot-robot-manipulation">Project</a>
+      <a href="https://arxiv.org/abs/2603.16861">arXiv</a>
+    </div>
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-title">MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation</div>
-  <div class="pub-authors">Yejin Kim, Wilbert Pumacay, Omar Rayyan, et al. (<span class="me">Ying-Chun Lee</span>)</div>
-  <div class="pub-venue">Submitted to Robotics: Science and Systems (RSS), 2026</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2602.11337">arXiv</a>
+  <div class="pub-thumb">
+    <img src="/images/papers/molmospaces.jpg" alt="MolmoSpaces" />
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation</div>
+    <div class="pub-authors">Yejin Kim, Wilbert Pumacay, Omar Rayyan, et al. (<span class="me">Ying-Chun Lee</span>)</div>
+    <div class="pub-venue">Submitted to Robotics: Science and Systems (RSS), 2026</div>
+    <div class="pub-links">
+      <a href="https://allenai.org/blog/molmospaces">Project</a>
+      <a href="https://arxiv.org/abs/2602.11337">arXiv</a>
+      <a href="https://github.com/allenai/molmospaces">Code</a>
+    </div>
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-title">TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics</div>
-  <div class="pub-authors">Shirui Chen, Cole Harrison, <span class="me">Ying-Chun Lee</span>, et al.</div>
-  <div class="pub-venue">Submitted to International Conference on Machine Learning (ICML), 2026</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2602.19313">arXiv</a>
+  <div class="pub-thumb">
+    <img src="/images/papers/topreward.jpg" alt="TOPReward" />
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics</div>
+    <div class="pub-authors">Shirui Chen, Cole Harrison, <span class="me">Ying-Chun Lee</span>, et al.</div>
+    <div class="pub-venue">Submitted to International Conference on Machine Learning (ICML), 2026</div>
+    <div class="pub-links">
+      <a href="https://topreward.github.io/webpage/">Project</a>
+      <a href="https://arxiv.org/abs/2602.19313">arXiv</a>
+      <a href="https://github.com/TOPReward/TOPReward">Code</a>
+    </div>
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-title">Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images</div>
-  <div class="pub-authors"><span class="me">Ying-Chun Lee</span>, Chih-Yang Lin, et al.</div>
-  <div class="pub-venue">IEEE Access, Vol. 12, pp. 111,481-111,492, July 2024</div>
-  <div class="pub-links">
-    <a href="https://doi.org/10.1109/ACCESS.2024.3432691">Paper</a>
+  <div class="pub-content">
+    <div class="pub-title">Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images</div>
+    <div class="pub-authors"><span class="me">Ying-Chun Lee</span>, Chih-Yang Lin, et al.</div>
+    <div class="pub-venue">IEEE Access, Vol. 12, pp. 111,481-111,492, July 2024</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/ACCESS.2024.3432691">Paper</a>
+    </div>
   </div>
 </div>
 
