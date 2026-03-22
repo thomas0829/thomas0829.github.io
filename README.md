@@ -1,6 +1,8 @@
-# thomas0829.github.io
+# thomas0829.com
 
 Personal website of Ying-Chun Lee, built with Jekyll and hosted on GitHub Pages.
+
+**Live site:** [https://thomas0829.com](https://thomas0829.com)
 
 ## Structure
 
