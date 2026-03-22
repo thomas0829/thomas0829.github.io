@@ -35,7 +35,7 @@ lang_url: /
 </p>
 
 <p>
-目前與 <strong><a href="https://prior.allenai.org/">Ai2 的 PRIOR 團隊</a></strong>及博士研究員 <a href="https://duanjiafei.com/">Jiafei Duan</a> 合作，參與真實世界機器人學習與評估基礎設施的開發。我有 Franka FR3、SO-100/SO-101（<a href="https://github.com/huggingface/lerobot">LeRobot</a>）、YAM 和 ALOHA VX300S 等平台的實作經驗，fine-tune 並部署過 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA、Diffusion Policy 等 policy，也建置了完整的 data collection pipeline 以及基於 GELLO 和 Meta Quest 2（Polymetis）的 teleoperation 系統。
+目前與 <strong><a href="https://prior.allenai.org/">Ai2 的 PRIOR 團隊</a></strong>及博士研究員 <a href="https://duanjiafei.com/">Jiafei Duan</a> 合作，參與真實世界機器人學習與評估基礎設施的開發。我有 Franka FR3、SO-100/SO-101（<a href="https://github.com/huggingface/lerobot">LeRobot</a>）和 YAM 等平台的實作經驗，fine-tune 並部署過 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA、Diffusion Policy 等 policy，也建置了完整的 data collection pipeline 以及基於 GELLO 和 Meta Quest 2（Polymetis）的 teleoperation 系統。
 </p>
 
 <p>

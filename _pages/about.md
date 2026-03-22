@@ -38,7 +38,7 @@ Hi! I'm Ying-Chun Lee, and you can also call me Thomas. I'm currently a master's
 </p>
 
 <p>
-I collaborate with the <strong><a href="https://prior.allenai.org/">PRIOR team at Ai2</a></strong> and PhD researcher <a href="https://duanjiafei.com/">Jiafei Duan</a> on real-world robotics learning and evaluation infrastructure. I've worked hands-on with several robotic platforms including Franka FR3, SO-100/SO-101 (via <a href="https://github.com/huggingface/lerobot">LeRobot</a>), YAM, and ALOHA VX300S. I've fine-tuned and deployed policies like &pi;<sub>0</sub>, &pi;<sub>0.5</sub>, &pi;<sub>0</sub>-FAST, ACT, SmolVLA, and Diffusion Policy on real hardware, and built end-to-end data collection pipelines and teleoperation systems using GELLO and Meta Quest 2 (via Polymetis).
+I collaborate with the <strong><a href="https://prior.allenai.org/">PRIOR team at Ai2</a></strong> and PhD researcher <a href="https://duanjiafei.com/">Jiafei Duan</a> on real-world robotics learning and evaluation infrastructure. I've worked hands-on with several robotic platforms including Franka FR3, SO-100/SO-101 (via <a href="https://github.com/huggingface/lerobot">LeRobot</a>), and YAM. I've fine-tuned and deployed policies like &pi;<sub>0</sub>, &pi;<sub>0.5</sub>, &pi;<sub>0</sub>-FAST, ACT, SmolVLA, and Diffusion Policy on real hardware, and built end-to-end data collection pipelines and teleoperation systems using GELLO and Meta Quest 2 (via Polymetis).
 </p>
 
 <p>
