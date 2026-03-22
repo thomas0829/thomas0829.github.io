@@ -1,9 +1,12 @@
 main:
-  - title: "About"
-    url: /
+  - title: "News"
+    url: /#news
 
   - title: "Publications"
-    url: /publications/
+    url: /#publications
+
+  - title: "Experience"
+    url: /#experience
 
   - title: "CV"
-    url: /cv/
+    url: /files/Resume_2026.docx

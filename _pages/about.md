@@ -22,13 +22,12 @@ redirect_from:
       <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> Email</a>
       <a href="https://github.com/thomas0829"><i class="fab fa-github"></i> GitHub</a>
       <a href="https://www.linkedin.com/in/thomas0829/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="/cv/"><i class="fas fa-file-alt"></i> CV</a>
+      <a href="/files/Resume_2026.docx"><i class="fas fa-file-alt"></i> CV</a>
     </div>
   </div>
 </div>
 
 <div class="home-section home-about">
-<h2>About</h2>
 
 <p>
 I am currently pursuing an M.S. in Electrical and Computer Engineering at the <strong>University of Washington</strong>, building on a B.S. in Electrical Engineering from <strong>Yuan Ze University</strong>. My research interests lie at the intersection of <strong>Embodied AI, robotics, and software engineering</strong> — I am especially passionate about building systems that enable learning-based methods to run reliably on real robotic platforms.
@@ -43,7 +42,7 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 </p>
 </div>
 
-<div class="home-section home-news">
+<div id="news" class="home-section home-news">
 <h2>News</h2>
 <ul>
   <li>
@@ -73,7 +72,7 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 </ul>
 </div>
 
-<div class="home-section home-publications">
+<div id="publications" class="home-section home-publications">
 <h2>Publications</h2>
 
 <div class="pub-item">
@@ -124,6 +123,9 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 </div>
 
 <div class="pub-item">
+  <div class="pub-thumb">
+    <img src="/images/papers/ieee-access.jpg" alt="IEEE Access - Ultrasound Segmentation" />
+  </div>
   <div class="pub-content">
     <div class="pub-title">Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images</div>
     <div class="pub-authors"><span class="me">Ying-Chun Lee</span>, Chih-Yang Lin, et al.</div>
@@ -136,7 +138,7 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 
 </div>
 
-<div class="home-section home-experience">
+<div id="experience" class="home-section home-experience">
 <h2>Experience</h2>
 
 <div class="exp-item">
@@ -190,7 +192,7 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 
 </div>
 
-<div class="home-section home-education">
+<div id="education" class="home-section home-education">
 <h2>Education</h2>
 
 <div class="edu-item">
@@ -213,7 +215,7 @@ Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, 
 
 </div>
 
-<div class="home-section home-skills">
+<div id="skills" class="home-section home-skills">
 <h2>Skills</h2>
 
 <div class="skill-category">
