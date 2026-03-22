@@ -1,56 +1,207 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
+layout: home
+title: "Ying-Chun (Thomas) Lee"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div class="home-hero">
+  <div class="home-hero__photo">
+    <img src="/images/profile.jpg" alt="Ying-Chun (Thomas) Lee" />
+  </div>
+  <div class="home-hero__info">
+    <h1>Ying-Chun (Thomas) Lee</h1>
+    <div class="home-hero__tagline">
+      M.S. in Electrical and Computer Engineering @ University of Washington<br/>
+      Embodied AI &middot; Robotics &middot; Software Engineering
+    </div>
+    <div class="home-hero__links">
+      <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://github.com/thomas0829"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/thomas0829/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="/cv/"><i class="fas fa-file-alt"></i> CV</a>
+    </div>
+  </div>
+</div>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<div class="home-section home-about">
+<h2>About</h2>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<p>
+I am currently pursuing an M.S. in Electrical and Computer Engineering at the <strong>University of Washington</strong>, building on a B.S. in Electrical Engineering from <strong>Yuan Ze University</strong>. My research interests lie at the intersection of <strong>Embodied AI, robotics, and software engineering</strong> — I am especially passionate about building systems that enable learning-based methods to run reliably on real robotic platforms.
+</p>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<p>
+I collaborate with the <strong>PRIOR team at the Allen Institute for AI (Ai2)</strong>, working with PhD researcher <a href="https://duanjiafei.com/">Jiafei Duan</a> on infrastructure for real-world robotics learning and evaluation. My work spans from building multi-threaded teleoperation and inference stacks for imitation learning, to training and deploying state-of-the-art policies (ACT, &pi;<sub>0</sub>) on real robotic hardware including the Franka arm.
+</p>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<p>
+Previously, as a Robotics Engineer Intern at <strong>Chang Chun Group</strong>, I developed a digital twin and imitation learning platform for the ALOHA VX300S robotic arm, integrating perception, trajectory planning, and learning-based control. I also served as a software engineer on the <strong>Husky Robotics</strong> team at UW, building real-time perception stacks for an autonomous Mars rover.
+</p>
+</div>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div class="home-section home-news">
+<h2>News</h2>
+<ul>
+  <li>
+    <span class="news-date">Mar 2026</span>
+    <span class="news-content">New preprint: <strong>MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation</strong> is now available on arXiv.</span>
+  </li>
+  <li>
+    <span class="news-date">Feb 2026</span>
+    <span class="news-content"><strong>MolmoSpaces</strong> submitted to Robotics: Science and Systems (RSS) 2026.</span>
+  </li>
+  <li>
+    <span class="news-date">Feb 2026</span>
+    <span class="news-content"><strong>TOPReward</strong> submitted to International Conference on Machine Learning (ICML) 2026.</span>
+  </li>
+  <li>
+    <span class="news-date">Oct 2025</span>
+    <span class="news-content">Joined the <strong>PRIOR team at Ai2</strong> as a Research Collaborator, working on real-world robotics infrastructure.</span>
+  </li>
+  <li>
+    <span class="news-date">Sep 2025</span>
+    <span class="news-content">Started M.S. in ECE at the <strong>University of Washington</strong>.</span>
+  </li>
+  <li>
+    <span class="news-date">Jul 2024</span>
+    <span class="news-content">Paper published in <strong>IEEE Access</strong>: Deep Learning-Based Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images.</span>
+  </li>
+</ul>
+</div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="home-section home-publications">
+<h2>Publications</h2>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="pub-item">
+  <div class="pub-title">MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation</div>
+  <div class="pub-authors">Abhay Deshpande, Maya Guru, Rose Hendrix, et al. (<span class="me">Ying-Chun Lee</span>)</div>
+  <div class="pub-venue">arXiv preprint, 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2603.16861">arXiv</a>
+  </div>
+</div>
 
-**Markdown generator**
+<div class="pub-item">
+  <div class="pub-title">MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation</div>
+  <div class="pub-authors">Yejin Kim, Wilbert Pumacay, Omar Rayyan, et al. (<span class="me">Ying-Chun Lee</span>)</div>
+  <div class="pub-venue">Submitted to Robotics: Science and Systems (RSS), 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2602.11337">arXiv</a>
+  </div>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+<div class="pub-item">
+  <div class="pub-title">TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics</div>
+  <div class="pub-authors">Shirui Chen, Cole Harrison, <span class="me">Ying-Chun Lee</span>, et al.</div>
+  <div class="pub-venue">Submitted to International Conference on Machine Learning (ICML), 2026</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2602.19313">arXiv</a>
+  </div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<div class="pub-item">
+  <div class="pub-title">Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images</div>
+  <div class="pub-authors"><span class="me">Ying-Chun Lee</span>, Chih-Yang Lin, et al.</div>
+  <div class="pub-venue">IEEE Access, Vol. 12, pp. 111,481-111,492, July 2024</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1109/ACCESS.2024.3432691">Paper</a>
+  </div>
+</div>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="home-section home-experience">
+<h2>Experience</h2>
+
+<div class="exp-item">
+  <div class="exp-header">
+    <span class="exp-role">Research Collaborator</span>
+    <span class="exp-date">Oct 2025 — Present</span>
+  </div>
+  <div class="exp-org">PRIOR Team, Allen Institute for AI (Ai2) — Seattle, WA</div>
+  <ul class="exp-desc">
+    <li>Enabled real-time imitation-learning deployment across 3 robotic platforms, cutting data-collection time from 4 hours to ~100 minutes per 100 episodes</li>
+    <li>Trained and deployed ACT and &pi;<sub>0</sub> policies on real robots, adding joint-position/velocity action support and real-time inference on the Franka arm</li>
+    <li>Engineered a Gello teleoperation, data-collection, and replay pipeline with Oculus Cartesian-delta compatibility</li>
+  </ul>
+</div>
+
+<div class="exp-item">
+  <div class="exp-header">
+    <span class="exp-role">Project Lead — Seattle Source Ranker</span>
+    <span class="exp-date">Sep 2025 — Present</span>
+  </div>
+  <div class="exp-org">University of Washington — Seattle, WA</div>
+  <ul class="exp-desc">
+    <li>Architected a distributed pipeline spanning 400K+ repositories, reducing collection time by 87% with hybrid GitHub GraphQL/REST strategy, Redis, Celery, and multi-token rotation</li>
+    <li>Delivered a tiered scoring system and React interface with instant filtering (&lt;100ms)</li>
+  </ul>
+</div>
+
+<div class="exp-item">
+  <div class="exp-header">
+    <span class="exp-role">Robotics Software Engineer</span>
+    <span class="exp-date">Sep 2025 — Apr 2026</span>
+  </div>
+  <div class="exp-org">Husky Robotics Team, University of Washington</div>
+  <ul class="exp-desc">
+    <li>Delivered a real-time perception stack for an autonomous Mars rover, enabling pose-aware navigation and ~90% object-detection accuracy</li>
+    <li>Architected camera calibration and perception-to-navigation integration in C++ for low-latency control</li>
+  </ul>
+</div>
+
+<div class="exp-item">
+  <div class="exp-header">
+    <span class="exp-role">Robotics Engineer Intern</span>
+    <span class="exp-date">Jul 2025 — Aug 2025</span>
+  </div>
+  <div class="exp-org">Chang Chun Group — Taipei, Taiwan</div>
+  <ul class="exp-desc">
+    <li>Created an end-to-end imitation-learning training platform for the ALOHA VX300S robotic arm, achieving 100% grasp success in simulation</li>
+    <li>Developed a ROS2–Isaac Sim digital twin and Transformer-based ACT++ control pipeline</li>
+  </ul>
+</div>
+
+</div>
+
+<div class="home-section home-education">
+<h2>Education</h2>
+
+<div class="edu-item">
+  <div class="edu-header">
+    <span class="edu-degree">M.S. in Electrical and Computer Engineering</span>
+    <span class="edu-date">Sep 2025 — Mar 2027 (Expected)</span>
+  </div>
+  <div class="edu-school">University of Washington, Seattle, WA</div>
+  <div class="edu-gpa">GPA: 3.95 / 4.0</div>
+</div>
+
+<div class="edu-item">
+  <div class="edu-header">
+    <span class="edu-degree">B.S. in Electrical Engineering</span>
+    <span class="edu-date">Sep 2020 — Jun 2024</span>
+  </div>
+  <div class="edu-school">Yuan Ze University, Taoyuan, Taiwan</div>
+  <div class="edu-gpa">Overall GPA: 3.73 / 4.0 &middot; Major GPA: 3.94 / 4.0</div>
+</div>
+
+</div>
+
+<div class="home-section home-skills">
+<h2>Skills</h2>
+
+<div class="skill-category">
+  <strong>Programming:</strong> <span>Python, C, C++, JavaScript, HTML, CSS, SQL</span>
+</div>
+<div class="skill-category">
+  <strong>Tools & Frameworks:</strong> <span>ROS2, PyTorch, TensorFlow, Keras, OpenCV, NumPy, Docker, AWS, GCP</span>
+</div>
+<div class="skill-category">
+  <strong>Coursework:</strong> <span>ROS, Self Driving Car, Software Development, Embedded Systems, Deep Learning, Computer Vision, Cloud Computing</span>
+</div>
+
+</div>

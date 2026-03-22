@@ -1,152 +1,101 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ying-Chun (Thomas) Lee",
+    "email": "thomas910829@gmail.com",
+    "phone": "+1 (206) 579-1447",
+    "website": "https://thomas0829.github.io",
+    "summary": "M.S. in ECE at University of Washington. Interested in Embodied AI, robotics, and software engineering.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
+      "city": "Seattle",
       "countryCode": "US",
-      "region": ""
+      "region": "WA"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "thomas0829",
+        "url": "https://github.com/thomas0829"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "thomas0829",
+        "url": "https://www.linkedin.com/in/thomas0829/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Allen Institute for AI (Ai2) — PRIOR Team",
+      "position": "Research Collaborator",
+      "startDate": "2025-10-01",
+      "endDate": "",
+      "summary": "Real-world robotics learning and evaluation infrastructure"
+    },
+    {
+      "company": "Husky Robotics Team, University of Washington",
+      "position": "Robotics Software Engineer",
+      "startDate": "2025-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Real-time perception stack for autonomous Mars rover"
+    },
+    {
+      "company": "Chang Chun Group",
+      "position": "Robotics Engineer Intern",
+      "startDate": "2025-07-01",
+      "endDate": "2025-08-31",
+      "summary": "ALOHA VX300S digital twin and imitation learning platform"
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "University of Washington",
+      "area": "M.S. in Electrical and Computer Engineering",
+      "startDate": "2025-09-01",
+      "endDate": "2027-03-01",
+      "gpa": "3.95/4.0"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Yuan Ze University",
+      "area": "B.S. in Electrical Engineering",
+      "startDate": "2020-09-01",
+      "endDate": "2024-06-01",
+      "gpa": "3.73/4.0 (Major: 3.94/4.0)"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C", "C++", "JavaScript", "HTML", "CSS", "SQL"]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "keywords": ["ROS2", "PyTorch", "TensorFlow", "OpenCV", "Docker", "AWS", "GCP"]
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images",
+      "publisher": "IEEE Access",
+      "releaseDate": "2024-07-01",
+      "website": "https://doi.org/10.1109/ACCESS.2024.3432691"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "publisher": "Submitted to ICML 2026",
+      "releaseDate": "2026-02-01",
+      "website": "https://arxiv.org/abs/2602.19313"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
+      "publisher": "Submitted to RSS 2026",
+      "releaseDate": "2026-02-02",
+      "website": "https://arxiv.org/abs/2602.11337"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-03-01",
+      "website": "https://arxiv.org/abs/2603.16861"
     }
   ]
 }
