@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Ying-Chun Lee"
 title_separator          : "-"
 name                     : &name "Ying-Chun Lee"
-description              : &description "M.S. in ECE @ UW | Embodied AI & Robotics"
+description              : &description "M.S. in ECE @ UW | VLA, Robotics, and Software Systems"
 url                      : https://thomas0829.com
 baseurl                  : ""
 repository               : "thomas0829/thomas0829.github.io"
@@ -22,7 +22,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ying-Chun Lee"
   pronouns         : "he/him"
-  bio              : "M.S. in ECE @ UW Seattle. Embodied AI, Robotics, and Software Engineering."
+  bio              : "M.S. in ECE @ UW Seattle. VLA, robotics, and software systems."
   location         : "Seattle, WA"
   employer         : "University of Washington"
   uri              : # URL
@@ -99,7 +99,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og-image.png"
-og_description           : "Ying-Chun (Thomas) Lee — M.S. in ECE @ UW. Embodied AI, Robotics, and Software Engineering."
+og_description           : "Ying-Chun (Thomas) Lee — M.S. in ECE @ UW. VLA, robotics, and software systems."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

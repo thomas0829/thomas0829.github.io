@@ -9,15 +9,15 @@ lang_url: /
 
 <div class="home-hero">
   <div class="home-hero__photo">
-    <img src="/images/profile.jpg" alt="李英群" />
+    <img src="/images/profile.jpg" alt="李英群" width="180" height="180" decoding="async" />
   </div>
   <div class="home-hero__info">
     <h1>李英群</h1>
-    <div class="home-hero__subtitle">華盛頓大學 · 電機與電腦工程碩士</div>
+    <div class="home-hero__subtitle">華盛頓大學 ECE 碩士 · VLA、機器人與軟體系統</div>
     <div class="home-hero__tags">
-      <span class="home-hero__tag">Embodied AI</span>
+      <span class="home-hero__tag">VLA</span>
       <span class="home-hero__tag">Robotics</span>
-      <span class="home-hero__tag">Software Engineering</span>
+      <span class="home-hero__tag">Software Systems</span>
     </div>
     <div class="home-hero__links">
       <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> Email</a>
@@ -31,60 +31,64 @@ lang_url: /
 <div class="home-section home-about">
 
 <p>
-嗨！我是李英群，目前就讀<strong>華盛頓大學</strong>電機與電腦工程碩士班。我的研究興趣在 <strong>Embodied AI、Robotics 和軟體工程</strong>，專注打造讓 learning-based 方法能在真實機器人上穩定運行的系統。
+嗨，我是李英群，也可以叫我 Thomas。目前在<strong>華盛頓大學</strong>讀電機與電腦工程碩士。我做的是圍繞 Vision-Language-Action (VLA) models 的 robot learning 與軟體系統，尤其是把 policy 接到真實硬體時需要的 data collection、teleoperation、deployment、reward modeling 和 evaluation。
 </p>
 
 <p>
-目前與 <strong><a href="https://prior.allenai.org/">Ai2 的 PRIOR 團隊</a></strong>及博士研究員 <a href="https://duanjiafei.com/">Jiafei Duan</a> 合作，參與真實世界機器人學習與評估基礎設施的開發。我有 Franka FR3、SO-100/SO-101（<a href="https://github.com/huggingface/lerobot">LeRobot</a>）和 YAM 等平台的實作經驗，fine-tune 並部署過 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA、Diffusion Policy 等 policy，也建置了完整的 data collection pipeline 以及基於 GELLO 和 Meta Quest 2（Polymetis）的 teleoperation 系統。
+我的機器人經驗包含在<strong>長春集團資訊中心</strong>擔任 Robotics Engineer Intern 時為 ALOHA VX300S 建置 Isaac Sim digital twin 與 imitation-learning 平台、在 <strong>Husky Robotics</strong> 為火星探測車做 OWL-ViT perception 與 RealSense depth sensing，以及與 <a href="https://duanjiafei.com/">Jiafei Duan</a> 及 <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> 研究人員進行真實機器人 policy infrastructure 研究合作。
 </p>
 
 <p>
-大學期間，我在<strong>伊利諾大學厄巴納-香檳分校（UIUC）DRES Lab</strong> 進行研究，由 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> 與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 共同指導，專注於基於深度學習的肩部超音波影像軟組織分割，並以第一作者發表論文於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>（2024）。
-</p>
-
-<p>
-之前在<strong>長春集團</strong>擔任 Robotics Engineer Intern，用 NVIDIA Isaac Sim 為 ALOHA VX300S 開發 digital twin 與 imitation learning 平台，也在華盛頓大學 <strong>Husky Robotics</strong> 團隊擔任軟體工程師，為參加 University Rover Challenge 的火星探測車開發即時 perception 與 depth sensing 系統。今年夏天將加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
+到 UW 之前，我在 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（<strong>UIUC DRES Lab</strong>）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 的指導下，做肩部超音波影像的 deep learning segmentation。這個研究後來以第一作者發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。2026 年 6 月，我會加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
 </p>
 </div>
 
-<div class="home-section home-news">
-<h2>最新消息</h2>
+<div class="home-section home-highlights">
+<h2>重點方向</h2>
 <ul>
   <li>
-    <span class="news-date">2026 年 6 月<br/><span class="cv-tag cv-tag--upcoming upcoming--mobile">Upcoming</span></span>
-    <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。<span class="cv-tag cv-tag--upcoming upcoming--desktop">Upcoming</span></span>
+    <span class="highlight-title"><a href="/zh/publications/">VLA & Robot Learning</a></span>
+    <span class="highlight-meta">Research</span>
+    <span class="highlight-text">Reward modeling、simulation、policy learning 與 open robot ecosystem。</span>
   </li>
   <li>
-    <span class="news-date">2026 年 4 月</span>
-    <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已被 Robotics: Science and Systems（RSS）2026 接收。</span>
+    <span class="highlight-title"><a href="https://prior.allenai.org/">真實機器人系統</a></span>
+    <span class="highlight-meta">Robotics Software</span>
+    <span class="highlight-text">Policy deployment、data collection、teleoperation 與 evaluation infrastructure。</span>
   </li>
   <li>
-    <span class="news-date">2026 年 3 月</span>
-    <span class="news-content">新預印本：<a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> 已發布於 arXiv。</span>
+    <span class="highlight-title"><a href="https://www.ccp.com.tw/">長春集團資訊中心</a></span>
+    <span class="highlight-meta">Robotics Intern</span>
+    <span class="highlight-text">為 ALOHA VX300S 建置 Isaac Sim digital twin 與 imitation-learning tooling。</span>
   </li>
   <li>
-    <span class="news-date">2026 年 2 月</span>
-    <span class="news-content">新預印本：<a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已發布於 arXiv。</span>
+    <span class="highlight-title"><a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
+    <span class="highlight-meta">Software Systems</span>
+    <span class="highlight-text">涵蓋 40 萬以上 GitHub repositories 的 distributed data pipeline 與 React interface。</span>
+  </li>
+</ul>
+</div>
+
+<div class="home-section home-news">
+<h2>動態</h2>
+<ul>
+  <li>
+    <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 被 Robotics: Science and Systems（RSS）2026 接收。</span>
   </li>
   <li>
-    <span class="news-date">2026 年 2 月</span>
-    <span class="news-content">新預印本：<a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已發布於 arXiv。</span>
+    <span class="news-content">2026 年 6 月將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
   </li>
   <li>
-    <span class="news-date">2025 年 10 月</span>
-    <span class="news-content">加入 <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR 團隊</strong></a>擔任研究合作者。</span>
+    <span class="news-content"><a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> 與 <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已作為 arXiv preprint 發布。</span>
   </li>
   <li>
-    <span class="news-date">2025 年 9 月</span>
-    <span class="news-content">進入<a href="https://www.ece.uw.edu/"><strong>華盛頓大學</strong></a>電機與電腦工程碩士班就讀。</span>
+    <span class="news-content">與 <a href="https://duanjiafei.com/"><strong>Jiafei Duan</strong></a> 及 <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> 研究人員的真實機器人 policy 研究合作聚焦於 deployment、data collection、teleoperation 與 evaluation infrastructure。</span>
   </li>
   <li>
-    <span class="news-date">2025 年 7 月</span>
-    <span class="news-content">在<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a>擔任 Robotics Engineer Intern，為 ALOHA VX300S 建構 imitation learning 平台。</span>
+    <span class="news-content">完成<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a> Robotics Engineer Intern 實習，為 ALOHA VX300S 建構 imitation-learning 平台。</span>
   </li>
   <li>
-    <span class="news-date">2024 年 7 月</span>
-    <span class="news-content">論文發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>：基於深度學習的肩部超音波影像軟組織自動分割方法。</span>
+    <span class="news-content">第一作者肩部超音波 segmentation 論文發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。</span>
   </li>
 </ul>
 </div>

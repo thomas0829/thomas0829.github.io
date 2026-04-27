@@ -25,7 +25,7 @@
     font-size: 2.2em;
     font-weight: 800;
     margin: 0 0 0.2em;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
 
     @media (max-width: 600px) {
       font-size: 1.7em;
@@ -105,7 +105,7 @@
     font-size: 1.15em;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
     color: var(--global-base-color);
     margin: 0 0 1.2em;
     padding-bottom: 0.4em;
@@ -201,10 +201,11 @@
 
 .cv-timeline__date {
   font-size: 0.82em;
-  color: var(--global-text-color-light);
-  font-weight: 500;
+  color: var(--global-text-color);
+  font-weight: 700;
   white-space: nowrap;
-  background: var(--global-border-color);
+  background: rgba(47, 127, 147, 0.08);
+  border: 1px solid rgba(47, 127, 147, 0.32);
   padding: 0.15em 0.6em;
   border-radius: 12px;
 

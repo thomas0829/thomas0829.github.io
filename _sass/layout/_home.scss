@@ -70,6 +70,7 @@
     color: var(--global-text-color-light);
     margin-bottom: 0.6em;
     font-weight: 500;
+    max-width: 540px;
   }
 
   .home-hero__tags {
@@ -138,6 +139,70 @@
       }
     }
   }
+
+}
+
+/* --- Focus Section --- */
+.home-highlights {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: minmax(145px, 1fr) 170px minmax(0, 2.2fr);
+    column-gap: 1em;
+    row-gap: 0.25em;
+    align-items: baseline;
+    padding: 0.55em 0;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 0.94em;
+    line-height: 1.45;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    @media (max-width: 720px) {
+      grid-template-columns: 1fr;
+      gap: 0.25em;
+      padding: 0.75em 0;
+    }
+  }
+
+  .highlight-title {
+    font-weight: 700;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-base-color);
+      }
+    }
+  }
+
+  .highlight-meta {
+    display: inline-flex;
+    align-items: center;
+    justify-self: start;
+    min-height: 1.55em;
+    padding: 0.08em 0.55em;
+    border: 1px solid var(--global-base-color);
+    border-radius: 999px;
+    color: var(--global-base-color);
+    font-size: 0.78em;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .highlight-text {
+    color: var(--global-text-color);
+  }
 }
 
 /* --- Section Headings --- */
@@ -178,47 +243,34 @@
   }
 
   li {
-    display: flex;
-    gap: 1em;
-    padding: 0.5em 0;
+    position: relative;
+    padding: 0.55em 0 0.55em 1.1em;
     font-size: 0.95em;
     line-height: 1.5;
     border-bottom: 1px solid var(--global-border-color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1.17em;
+      width: 0.38em;
+      height: 0.38em;
+      border-radius: 50%;
+      background: var(--global-base-color);
+    }
 
     &:last-child {
       border-bottom: none;
     }
 
     @media (max-width: 600px) {
-      gap: 0.6em;
-    }
-  }
-
-  .news-date {
-    flex-shrink: 0;
-    width: 100px;
-    color: var(--global-text-color-light);
-    font-size: 0.88em;
-    font-weight: 500;
-
-    @media (max-width: 600px) {
-      width: 75px;
-      font-size: 0.82em;
+      padding-left: 1em;
     }
   }
 
   .news-content {
-    flex: 1;
-  }
-
-  .upcoming--desktop {
-    display: inline-block;
-    @media (max-width: 600px) { display: none; }
-  }
-
-  .upcoming--mobile {
-    display: none;
-    @media (max-width: 600px) { display: inline-block; }
+    display: block;
   }
 
 }

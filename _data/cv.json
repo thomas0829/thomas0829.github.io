@@ -2,9 +2,9 @@
   "basics": {
     "name": "Ying-Chun Lee",
     "email": "thomas910829@gmail.com",
-    "phone": "+1 (206) 579-1447",
+    "phone": "",
     "website": "https://thomas0829.github.io",
-    "summary": "M.S. in ECE at University of Washington. Interested in Embodied AI, robotics, and software engineering.",
+    "summary": "ECE master's student at the University of Washington working on VLA, robot learning, robotics software, and software systems.",
     "location": {
       "city": "Seattle",
       "countryCode": "US",
@@ -25,10 +25,10 @@
   },
   "work": [
     {
-      "company": "Allen Institute for AI (Ai2) — PRIOR Team",
-      "position": "Research Collaborator",
+      "company": "Research collaboration with Jiafei Duan and collaborators from Ai2 PRIOR",
+      "position": "Research Collaboration",
       "startDate": "2025-10-01",
-      "endDate": "",
+      "endDate": "2026-05-01",
       "summary": "Real-world robotics learning and evaluation infrastructure"
     },
     {
@@ -39,11 +39,11 @@
       "summary": "Real-time perception stack for autonomous Mars rover"
     },
     {
-      "company": "Chang Chun Group",
+      "company": "Chang Chun Group — Information Center",
       "position": "Robotics Engineer Intern",
       "startDate": "2025-07-01",
       "endDate": "2025-08-31",
-      "summary": "ALOHA VX300S digital twin and imitation learning platform"
+      "summary": "ALOHA VX300S digital twin and imitation-learning platform"
     }
   ],
   "education": [
@@ -68,8 +68,12 @@
       "keywords": ["Python", "C", "C++", "JavaScript", "HTML", "CSS", "SQL"]
     },
     {
-      "name": "Tools & Frameworks",
-      "keywords": ["ROS2", "PyTorch", "TensorFlow", "OpenCV", "Docker", "AWS", "GCP"]
+      "name": "Robotics / VLA / AI",
+      "keywords": ["VLA", "Robot Learning", "Reinforcement Learning", "Reward Modeling", "Imitation Learning", "LeRobot", "ROS2", "Polymetis", "NVIDIA Isaac Sim", "PyTorch", "OpenCV"]
+    },
+    {
+      "name": "Software Systems",
+      "keywords": ["React", "Node.js", "Flask", "Docker", "Kubernetes", "AWS", "GCP", "Redis", "Celery", "GitHub GraphQL/REST"]
     }
   ],
   "publications": [

@@ -9,12 +9,11 @@ lang_url: /cv/
 
 <div class="cv-header">
   <h1>李英群</h1>
-  <div class="cv-header__subtitle">華盛頓大學 電機與電腦工程碩士</div>
+  <div class="cv-header__subtitle">華盛頓大學 ECE 碩士</div>
   <div class="cv-header__contact">
     <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> thomas910829@gmail.com</a>
     <a href="https://github.com/thomas0829"><i class="fab fa-github"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/thomas0829/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="tel:+12065791447"><i class="fas fa-phone"></i> (206) 579-1447</a>
   </div>
   <div class="cv-header__download">
     <a href="#" onclick="openResumeModal();return false;"><i class="fas fa-download"></i> 下載履歷</a>
@@ -53,28 +52,29 @@ lang_url: /cv/
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Research Collaborator</span>
-        <span class="cv-timeline__date">2025 年 10 月 — 至今</span>
+        <span class="cv-timeline__role">研究合作</span>
+        <span class="cv-timeline__date">2025 年 10 月 — 2026 年 5 月</span>
       </div>
-      <div class="cv-timeline__org">PRIOR Team, Allen Institute for AI（Ai2）— 西雅圖</div>
+      <div class="cv-timeline__org">與 Jiafei Duan 及 Ai2 PRIOR 研究人員合作</div>
       <ul class="cv-timeline__details">
-        <li>在 3 個機器人平台（Franka FR3、SO-100/SO-101（LeRobot）、YAM）上實現即時 imitation learning 部署，將每 100 episode 的資料採集時間從 4 小時縮短至約 100 分鐘</li>
-        <li>Fine-tune 並部署 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA 及 Diffusion Policy，加入 joint position/velocity action 支援與 Franka FR3 即時 inference</li>
-        <li>建構端到端 data collection pipeline，涵蓋 calibration、錄製、驗證及 LeRobot 相容 dataset 轉換</li>
-        <li>開發 GELLO teleoperation 系統（適用 Franka FR3 與 YAM）；整合 Meta Quest 2 Cartesian-delta 控制（FR3 透過 Polymetis、YAM 透過 SDK）</li>
+        <li>參與 <a href="https://arxiv.org/abs/2602.11337">MolmoSpaces</a>（RSS 2026）、<a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a> 與 <a href="https://arxiv.org/abs/2602.19313">TOPReward</a> 相關的 robot-learning research；主要建置真實機器人 policy deployment、data collection、teleoperation 與 evaluation infrastructure</li>
+        <li>在 3 個真實機器人平台上建立即時 imitation-learning deployment（Franka FR3、SO-100/SO-101 via LeRobot、YAM），將每 100 episode 的資料採集時間從約 4 小時降到約 100 分鐘</li>
+        <li>Fine-tune 並在真機上跑 VLA 與 imitation-learning policies，包括 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA 及 Diffusion Policy；加入 joint position/velocity action 支援與 Franka FR3 即時 inference</li>
+        <li>建立 data collection 流程，包含 calibration、錄製、驗證與 LeRobot-compatible dataset 轉換</li>
+        <li>實作 Franka FR3 與 YAM 的 GELLO teleoperation，並整合 Meta Quest 2 Cartesian-delta control（Polymetis 與 direct SDK）</li>
       </ul>
     </div>
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Project Lead — <a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
+        <span class="cv-timeline__role">Software Systems Project Lead — <a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
         <span class="cv-timeline__date">2025 年 9 月 — 至今</span>
       </div>
       <div class="cv-timeline__org">華盛頓大學 — 西雅圖</div>
       <ul class="cv-timeline__details">
-        <li>設計 distributed pipeline，涵蓋 40 萬以上 GitHub repo，透過 GraphQL/REST 混合策略、Redis、Celery 及 multi-token rotation 將採集時間從 5 小時縮短至 40 分鐘（87%）</li>
-        <li>建構二次驗證層來清理 raw API data，偵測 HTTP 451 legal block 並修正約 2% dataset 的 metric 不一致問題</li>
-        <li>交付分層評分系統與 React 前端，支援即時篩選（&lt;100ms）、client-side pagination 及 URL state persistence</li>
+        <li>建置涵蓋 40 萬以上 GitHub repo 的 distributed pipeline，透過 GraphQL/REST、Redis、Celery 與 multi-token rotation 將採集時間從 5 小時降到 40 分鐘（87%）</li>
+        <li>加入 raw API data 驗證層，處理 HTTP 451 legal block 與約 2% dataset 的 metric 不一致問題</li>
+        <li>做出分層評分系統與 React 前端，支援即時篩選（&lt;100ms）、client-side pagination 與 URL state persistence</li>
       </ul>
     </div>
 
@@ -85,7 +85,7 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">Husky Robotics Team, 華盛頓大學 — 西雅圖</div>
       <ul class="cv-timeline__details">
-        <li>為自主火星探測車開發即時 perception stack，整合 OpenCV、ArUco solvePnP 及 OWL-ViT，達成 pose-aware navigation 與約 90% object detection 準確度</li>
+        <li>為自主火星探測車開發即時 perception stack，整合 OpenCV、ArUco solvePnP 與 OWL-ViT，達成 pose-aware navigation 與約 90% object detection 準確度</li>
         <li>建構 OWL-ViT fine-tuning pipeline，準確辨識 University Rover Challenge（URC）指定的 3 項物件</li>
         <li>整合 Intel RealSense depth sensing，讓探測車能即時估算物體距離</li>
         <li>以 C++ 開發 camera calibration 與 perception-to-navigation 整合模組</li>
@@ -99,21 +99,20 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">長春集團 — 資訊中心，臺北</div>
       <ul class="cv-timeline__details">
-        <li>為 ALOHA VX300S 機械手臂建構端到端 imitation learning 訓練平台，在 35–65 cm workspace 達成 100% 模擬抓取成功率</li>
-        <li>開發 ROS2–Isaac Sim digital twin 與 Transformer-based ACT++ control pipeline，搭配三階段 trajectory planner</li>
-        <li>實作自動轉換為標準 ACT++ HDF5 dataset 格式</li>
+        <li>為 ALOHA VX300S 機械手臂建 imitation learning 訓練平台，在 35-65 cm workspace 達到 100% 模擬抓取成功率</li>
+        <li>開發 ROS2-Isaac Sim digital twin 與 Transformer-based ACT++ control pipeline，搭配三階段 trajectory planner</li>
+        <li>加入自動轉換成標準 ACT++ HDF5 dataset 的流程，方便重複訓練</li>
       </ul>
     </div>
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Research Assistant</span>
+        <span class="cv-timeline__role">Undergraduate Researcher</span>
         <span class="cv-timeline__date">2022 年 6 月 — 2024 年 6 月</span>
       </div>
-      <div class="cv-timeline__org">DRES Lab, University of Illinois at Urbana-Champaign（UIUC）— <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> &amp; <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a></div>
+      <div class="cv-timeline__org">肩部超音波影像 segmentation — <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（UIUC DRES Lab）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 指導</div>
       <ul class="cv-timeline__details">
-        <li>研究醫學影像辨識技術，實作 U-Net、Mask R-CNN 及 DeepLab V3+ 進行肩部超音波影像軟組織自動 segmentation</li>
-        <li>以第一作者發表論文於 IEEE Access（2024）</li>
+        <li>主導肩部超音波影像軟組織 segmentation 研究，實作 U-Net、Mask R-CNN 與 DeepLab V3+；成果以第一作者發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691">IEEE Access</a></li>
         <li>開發結合 VGG 與 ANN 的 deep learning model，從肩部超音波影像分類脊髓損傷（SCI）</li>
         <li>獲選教育部海外實習計畫獎學金（2022 及 2023）</li>
       </ul>
@@ -133,8 +132,8 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">ROS &amp; Gazebo — 元智大學</div>
       <ul class="cv-timeline__details">
-        <li>使用 ROS Noetic、Gazebo、C++ 及 LiDAR 建構並測試自主四輪配送機器人</li>
-        <li>實作 gmapping 做 SLAM mapping、amcl 做 localization、costmap 做即時 path planning 與避障</li>
+        <li>使用 ROS Noetic、Gazebo、C++ 與 LiDAR 建置並測試自主四輪配送機器人</li>
+        <li>使用 gmapping、amcl 與 costmap 完成 SLAM、localization、path planning 與避障</li>
       </ul>
     </div>
 
@@ -145,8 +144,8 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">Raspberry Pi 4 &amp; Flask — 元智大學</div>
       <ul class="cv-timeline__details">
-        <li>使用 Raspberry Pi 4、RFID 讀取器及 Flask 網頁介面開發網路控制門鎖系統</li>
-        <li>透過實作自動上鎖功能解決電磁鎖過熱問題，防止長時間通電</li>
+        <li>用 Raspberry Pi 4、RFID 讀取器與 Flask 做網路控制門鎖系統</li>
+        <li>加入自動上鎖功能，避免電磁鎖長時間通電而過熱</li>
       </ul>
     </div>
 
@@ -157,8 +156,8 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">電腦視覺 — 元智大學</div>
       <ul class="cv-timeline__details">
-        <li>開發即時 gesture recognition 與背景替換系統，五種手勢達成 99% accuracy</li>
-        <li>透過 MediaPipe 擷取 522 個 body landmarks，最佳化四種 classifier（Random Forest、Gradient Boosting 等）</li>
+        <li>做出即時 gesture recognition 與背景替換系統，五種手勢達到 99% accuracy</li>
+        <li>用 MediaPipe 擷取 522 個 body landmarks，並比較 Random Forest、Gradient Boosting 等四種 classifier</li>
       </ul>
     </div>
 
@@ -176,8 +175,8 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">元智大學</div>
       <ul class="cv-timeline__details">
-        <li>協助教授進行課程管理、批改作業及考試行政作業</li>
-        <li>提供學生 LC3 組合語言、二補數及二進位運算等個別輔導</li>
+        <li>協助課程管理、批改作業與考試行政作業</li>
+        <li>個別輔導學生 LC3 組合語言、二補數與二進位運算</li>
       </ul>
     </div>
 
@@ -272,22 +271,27 @@ lang_url: /cv/
   </div>
 
   <div class="cv-skills-group">
-    <h3>Robotics & AI</h3>
+    <h3>Robotics / VLA / AI</h3>
     <div class="cv-tags">
+      <span class="cv-tag">VLA</span>
+      <span class="cv-tag">Robot Learning</span>
+      <span class="cv-tag">Reinforcement Learning</span>
+      <span class="cv-tag">Reward Modeling</span>
+      <span class="cv-tag">Imitation Learning</span>
+      <span class="cv-tag">LeRobot</span>
       <span class="cv-tag">ROS2</span>
+      <span class="cv-tag">Polymetis</span>
+      <span class="cv-tag">NVIDIA Isaac Sim</span>
       <span class="cv-tag">PyTorch</span>
       <span class="cv-tag">TensorFlow</span>
-      <span class="cv-tag">Keras</span>
       <span class="cv-tag">OpenCV</span>
-      <span class="cv-tag">NumPy</span>
-      <span class="cv-tag">Matplotlib</span>
-      <span class="cv-tag">PIL</span>
-      <span class="cv-tag">NVIDIA Isaac Sim</span>
+      <span class="cv-tag">OWL-ViT</span>
+      <span class="cv-tag">Diffusion Policy</span>
     </div>
   </div>
 
   <div class="cv-skills-group">
-    <h3>Web & Cloud</h3>
+    <h3>Software Systems</h3>
     <div class="cv-tags">
       <span class="cv-tag">React</span>
       <span class="cv-tag">Node.js</span>
@@ -298,6 +302,7 @@ lang_url: /cv/
       <span class="cv-tag">GCP</span>
       <span class="cv-tag">Redis</span>
       <span class="cv-tag">Celery</span>
+      <span class="cv-tag">GitHub GraphQL/REST</span>
     </div>
   </div>
 
@@ -305,7 +310,9 @@ lang_url: /cv/
     <h3>Data & Analysis</h3>
     <div class="cv-tags">
       <span class="cv-tag">pandas</span>
+      <span class="cv-tag">NumPy</span>
       <span class="cv-tag">SciPy</span>
+      <span class="cv-tag">Matplotlib</span>
       <span class="cv-tag">Jupyter</span>
       <span class="cv-tag">Git</span>
     </div>

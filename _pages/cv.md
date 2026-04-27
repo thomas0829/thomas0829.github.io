@@ -11,12 +11,11 @@ redirect_from:
 
 <div class="cv-header">
   <h1>Ying-Chun Lee</h1>
-  <div class="cv-header__subtitle">M.S. in Electrical and Computer Engineering @ University of Washington</div>
+  <div class="cv-header__subtitle">M.S. in ECE, University of Washington</div>
   <div class="cv-header__contact">
     <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> thomas910829@gmail.com</a>
     <a href="https://github.com/thomas0829"><i class="fab fa-github"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/thomas0829/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="tel:+12065791447"><i class="fas fa-phone"></i> (206) 579-1447</a>
   </div>
   <div class="cv-header__download">
     <a href="#" onclick="openResumeModal();return false;"><i class="fas fa-download"></i> Download Resume</a>
@@ -55,28 +54,29 @@ redirect_from:
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Research Collaborator</span>
-        <span class="cv-timeline__date">Oct 2025 — Present</span>
+        <span class="cv-timeline__role">Research Collaboration</span>
+        <span class="cv-timeline__date">Oct 2025 — May 2026</span>
       </div>
-      <div class="cv-timeline__org">PRIOR Team, Allen Institute for AI (Ai2) — Seattle, WA</div>
+      <div class="cv-timeline__org">with Jiafei Duan and collaborators from Ai2 PRIOR</div>
       <ul class="cv-timeline__details">
-        <li>Enabled real-time imitation-learning deployment across 3 robotic platforms (Franka FR3, SO-100/SO-101 via LeRobot, YAM), cutting data-collection time from 4 hours to ~100 minutes per 100 episodes</li>
-        <li>Fine-tuned and deployed &pi;<sub>0</sub>, &pi;<sub>0.5</sub>, &pi;<sub>0</sub>-FAST, ACT, SmolVLA, and Diffusion Policy on real hardware, adding joint-position/velocity action support and real-time inference on the Franka FR3</li>
-        <li>Built an end-to-end data collection pipeline covering calibration, recording, validation, and LeRobot-compatible dataset conversion for scalable policy training</li>
-        <li>Engineered GELLO teleoperation for the Franka FR3 and YAM; integrated Meta Quest 2 Cartesian-delta control for the FR3 via Polymetis and for the YAM via direct SDK interface</li>
+        <li>Contributed to robot-learning research associated with <a href="https://arxiv.org/abs/2602.11337">MolmoSpaces</a> (RSS 2026), <a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a>, and <a href="https://arxiv.org/abs/2602.19313">TOPReward</a>; built infrastructure for real-robot policy deployment, data collection, teleoperation, and evaluation</li>
+        <li>Set up real-time imitation-learning deployment on 3 robot platforms (Franka FR3, SO-100/SO-101 via LeRobot, YAM), reducing 100-episode data collection from ~4 hours to ~100 minutes</li>
+        <li>Fine-tuned and ran VLA and imitation-learning policies including &pi;<sub>0</sub>, &pi;<sub>0.5</sub>, &pi;<sub>0</sub>-FAST, ACT, SmolVLA, and Diffusion Policy on real hardware; added joint-position/velocity action support and real-time FR3 inference</li>
+        <li>Built the data-collection path end to end: calibration, recording, validation, and LeRobot-compatible dataset conversion</li>
+        <li>Implemented GELLO teleoperation for Franka FR3 and YAM, plus Meta Quest 2 Cartesian-delta control through Polymetis and direct SDK integrations</li>
       </ul>
     </div>
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Project Lead — <a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
+        <span class="cv-timeline__role">Software Systems Project Lead — <a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
         <span class="cv-timeline__date">Sep 2025 — Present</span>
       </div>
       <div class="cv-timeline__org">University of Washington — Seattle, WA</div>
       <ul class="cv-timeline__details">
-        <li>Architected a distributed pipeline spanning 400K+ repositories, reducing collection time by 87% (5 hours to 40 mins) with hybrid GitHub GraphQL/REST strategy, Redis, Celery, and multi-token rotation</li>
-        <li>Engineered a secondary validation layer to sanitize raw API data, ensuring integrity by detecting legal blocks (HTTP 451) and correcting metric inconsistencies for ~2% of the dataset</li>
-        <li>Delivered a tiered scoring system and React interface with instant filtering (&lt;100ms), client-side pagination, and URL state persistence</li>
+        <li>Built a distributed pipeline over 400K+ GitHub repositories, cutting collection time by 87% (5 hours to 40 minutes) with GraphQL/REST, Redis, Celery, and multi-token rotation</li>
+        <li>Added a validation layer for raw API data, including HTTP 451 legal blocks and metric inconsistencies affecting ~2% of the dataset</li>
+        <li>Built a tiered scoring system and React interface with instant filtering (&lt;100ms), client-side pagination, and URL state persistence</li>
       </ul>
     </div>
 
@@ -101,21 +101,20 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">Chang Chun Group — Information Center, Taipei, Taiwan</div>
       <ul class="cv-timeline__details">
-        <li>Created an end-to-end imitation-learning training platform for the ALOHA VX300S robotic arm, achieving 100% grasp success in simulation across a 35–65 cm workspace</li>
-        <li>Developed a ROS2–Isaac Sim digital twin and Transformer-based ACT++ control pipeline with a three-stage trajectory planner</li>
-        <li>Implemented automated conversion to standard ACT++ HDF5 datasets for scalable training</li>
+        <li>Built an imitation-learning training platform for the ALOHA VX300S arm, reaching 100% grasp success in simulation across a 35-65 cm workspace</li>
+        <li>Developed a ROS2-Isaac Sim digital twin and Transformer-based ACT++ control pipeline with a three-stage trajectory planner</li>
+        <li>Added automated conversion to standard ACT++ HDF5 datasets for repeatable training runs</li>
       </ul>
     </div>
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Research Assistant</span>
+        <span class="cv-timeline__role">Undergraduate Researcher</span>
         <span class="cv-timeline__date">Jun 2022 — Jun 2024</span>
       </div>
-      <div class="cv-timeline__org">DRES Lab, University of Illinois at Urbana-Champaign (UIUC) — <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> &amp; <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a></div>
+      <div class="cv-timeline__org">Shoulder ultrasound segmentation — guidance from <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> (UIUC DRES Lab) &amp; <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a></div>
       <ul class="cv-timeline__details">
-        <li>Researched medical image recognition techniques; implemented U-Net, Mask R-CNN, and DeepLab V3+ for automated shoulder soft tissue segmentation from ultrasound images</li>
-        <li>Published first-author paper in IEEE Access (2024)</li>
+        <li>Led first-author research on shoulder ultrasound soft-tissue segmentation, implementing U-Net, Mask R-CNN, and DeepLab V3+; published in <a href="https://doi.org/10.1109/ACCESS.2024.3432691">IEEE Access</a></li>
         <li>Developed a deep learning model combining VGG and ANN for spinal cord injury (SCI) classification from shoulder ultrasound images</li>
         <li>Selected as Scholarship Recipient through Taiwan Ministry of Education Overseas Internship Program (2022 &amp; 2023)</li>
       </ul>
@@ -135,8 +134,8 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">ROS &amp; Gazebo — Yuan Ze University</div>
       <ul class="cv-timeline__details">
-        <li>Built and tested an autonomous four-wheeled delivery robot using ROS Noetic, Gazebo, C++, and LiDAR</li>
-        <li>Implemented gmapping for SLAM-based mapping, amcl for localization, and costmap for real-time path planning and obstacle avoidance</li>
+        <li>Built and tested an autonomous four-wheeled delivery robot in ROS Noetic and Gazebo with C++ and LiDAR</li>
+        <li>Used gmapping, amcl, and costmap for SLAM, localization, path planning, and obstacle avoidance</li>
       </ul>
     </div>
 
@@ -147,8 +146,8 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">Raspberry Pi 4 &amp; Flask — Yuan Ze University</div>
       <ul class="cv-timeline__details">
-        <li>Developed a web-controlled door lock system using Raspberry Pi 4, RFID reader, and a Flask web interface</li>
-        <li>Resolved electromagnetic lock overheating by implementing an auto-lock feature to prevent prolonged current flow</li>
+        <li>Built a web-controlled door lock system with Raspberry Pi 4, an RFID reader, and Flask</li>
+        <li>Fixed electromagnetic lock overheating by adding auto-lock behavior to prevent prolonged current flow</li>
       </ul>
     </div>
 
@@ -159,8 +158,8 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">Computer Vision — Yuan Ze University</div>
       <ul class="cv-timeline__details">
-        <li>Developed a real-time gesture recognition and background replacement system achieving 99% accuracy across five gestures</li>
-        <li>Extracted 522 body landmarks via MediaPipe; optimized four classifiers including Random Forest and Gradient Boosting</li>
+        <li>Built a real-time gesture recognition and background replacement system with 99% accuracy across five gestures</li>
+        <li>Extracted 522 body landmarks with MediaPipe and compared four classifiers, including Random Forest and Gradient Boosting</li>
       </ul>
     </div>
 
@@ -178,8 +177,8 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">Yuan Ze University</div>
       <ul class="cv-timeline__details">
-        <li>Assisted professor with coursework management, grading, and exam logistics</li>
-        <li>Provided one-on-one support for students on LC3 assembly language, two's complement, and binary operations</li>
+        <li>Helped manage coursework, grading, and exam logistics</li>
+        <li>Supported students one-on-one with LC3 assembly, two's complement, and binary operations</li>
       </ul>
     </div>
 
@@ -274,22 +273,27 @@ redirect_from:
   </div>
 
   <div class="cv-skills-group">
-    <h3>Robotics & AI</h3>
+    <h3>Robotics / VLA / AI</h3>
     <div class="cv-tags">
+      <span class="cv-tag">VLA</span>
+      <span class="cv-tag">Robot Learning</span>
+      <span class="cv-tag">Reinforcement Learning</span>
+      <span class="cv-tag">Reward Modeling</span>
+      <span class="cv-tag">Imitation Learning</span>
+      <span class="cv-tag">LeRobot</span>
       <span class="cv-tag">ROS2</span>
+      <span class="cv-tag">Polymetis</span>
+      <span class="cv-tag">NVIDIA Isaac Sim</span>
       <span class="cv-tag">PyTorch</span>
       <span class="cv-tag">TensorFlow</span>
-      <span class="cv-tag">Keras</span>
       <span class="cv-tag">OpenCV</span>
-      <span class="cv-tag">NumPy</span>
-      <span class="cv-tag">Matplotlib</span>
-      <span class="cv-tag">PIL</span>
-      <span class="cv-tag">NVIDIA Isaac Sim</span>
+      <span class="cv-tag">OWL-ViT</span>
+      <span class="cv-tag">Diffusion Policy</span>
     </div>
   </div>
 
   <div class="cv-skills-group">
-    <h3>Web & Cloud</h3>
+    <h3>Software Systems</h3>
     <div class="cv-tags">
       <span class="cv-tag">React</span>
       <span class="cv-tag">Node.js</span>
@@ -300,6 +304,7 @@ redirect_from:
       <span class="cv-tag">GCP</span>
       <span class="cv-tag">Redis</span>
       <span class="cv-tag">Celery</span>
+      <span class="cv-tag">GitHub GraphQL/REST</span>
     </div>
   </div>
 
@@ -307,7 +312,9 @@ redirect_from:
     <h3>Data & Analysis</h3>
     <div class="cv-tags">
       <span class="cv-tag">pandas</span>
+      <span class="cv-tag">NumPy</span>
       <span class="cv-tag">SciPy</span>
+      <span class="cv-tag">Matplotlib</span>
       <span class="cv-tag">Jupyter</span>
       <span class="cv-tag">Git</span>
     </div>

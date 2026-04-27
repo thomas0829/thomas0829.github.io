@@ -21,7 +21,7 @@
     font-size: 2em;
     font-weight: 800;
     margin: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
 
     @media (max-width: 600px) {
       font-size: 1.5em;
@@ -116,6 +116,24 @@
   color: var(--global-text-color-light);
   font-style: italic;
   margin-bottom: 0.5em;
+}
+
+.pub-page__badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.55em;
+  margin-right: 0.35em;
+  padding: 0.08em 0.55em;
+  border: 1px solid var(--global-base-color);
+  border-radius: 999px;
+  background: var(--global-base-color);
+  color: #fff;
+  font-size: 0.78em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .pub-page__links {
