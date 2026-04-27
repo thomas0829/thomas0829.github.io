@@ -85,7 +85,7 @@ lang_url: /
     <span class="news-content">與 <a href="https://duanjiafei.com/"><strong>Jiafei Duan</strong></a> 及 <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> 研究人員的真實機器人 policy 研究合作聚焦於 deployment、data collection、teleoperation 與 evaluation infrastructure。</span>
   </li>
   <li>
-    <span class="news-content">完成<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a> Robotics Engineer Intern 實習，為 ALOHA VX300S 建構 imitation-learning 平台。</span>
+    <span class="news-content">在<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a>擔任 Robotics Engineer Intern，為 ALOHA VX300S 建構 imitation-learning 平台。</span>
   </li>
   <li>
     <span class="news-content">第一作者肩部超音波 segmentation 論文發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。</span>
