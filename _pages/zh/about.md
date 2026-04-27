@@ -51,6 +51,10 @@ lang_url: /
 <h2>最新消息</h2>
 <ul>
   <li>
+    <span class="news-date">2026 年 4 月</span>
+    <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已被 Robotics: Science and Systems（RSS）2026 接收。</span>
+  </li>
+  <li>
     <span class="news-date">2026 年 6 月<br/><span class="cv-tag cv-tag--upcoming upcoming--mobile">Upcoming</span></span>
     <span class="news-content">即將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。<span class="cv-tag cv-tag--upcoming upcoming--desktop">Upcoming</span></span>
   </li>
@@ -60,11 +64,11 @@ lang_url: /
   </li>
   <li>
     <span class="news-date">2026 年 2 月</span>
-    <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已投稿至 Robotics: Science and Systems（RSS）2026。</span>
+    <span class="news-content">新預印本：<a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已發布於 arXiv。</span>
   </li>
   <li>
     <span class="news-date">2026 年 2 月</span>
-    <span class="news-content"><a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已投稿至 International Conference on Machine Learning（ICML）2026。</span>
+    <span class="news-content">新預印本：<a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已發布於 arXiv。</span>
   </li>
   <li>
     <span class="news-date">2025 年 10 月</span>
