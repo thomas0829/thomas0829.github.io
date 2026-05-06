@@ -1,6 +1,6 @@
 # thomas0829.com
 
-Personal website and CV for Ying-Chun Lee, focused on VLA, robotics, and software systems. Built with Jekyll and hosted on GitHub Pages.
+Personal website and CV for Ying-Chun Lee, focused on robot learning, real-robot systems, and software engineering. Built with Jekyll and hosted on GitHub Pages.
 
 **Live site:** [https://thomas0829.com](https://thomas0829.com)
 

@@ -9,7 +9,7 @@ lang_url: /cv/
 
 <div class="cv-header">
   <h1>李英群</h1>
-  <div class="cv-header__subtitle">華盛頓大學 ECE 碩士</div>
+  <div class="cv-header__subtitle">華盛頓大學 電機與電腦工程碩士</div>
   <div class="cv-header__contact">
     <a href="mailto:thomas910829@gmail.com"><i class="fas fa-envelope"></i> thomas910829@gmail.com</a>
     <a href="https://github.com/thomas0829"><i class="fab fa-github"></i> GitHub</a>
@@ -57,10 +57,10 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">與 Jiafei Duan 及 Ai2 PRIOR 研究人員合作</div>
       <ul class="cv-timeline__details">
-        <li>參與 <a href="https://arxiv.org/abs/2602.11337">MolmoSpaces</a>（RSS 2026）、<a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a> 與 <a href="https://arxiv.org/abs/2602.19313">TOPReward</a> 相關的 robot-learning research；主要建置真實機器人 policy deployment、data collection、teleoperation 與 evaluation infrastructure</li>
-        <li>在 3 個真實機器人平台上建立即時 imitation-learning deployment（Franka FR3、SO-100/SO-101 via LeRobot、YAM），將每 100 episode 的資料採集時間從約 4 小時降到約 100 分鐘</li>
+        <li>參與 <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a>、<a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a>、<a href="https://arxiv.org/abs/2602.19313">TOPReward</a> 與 <a href="https://arxiv.org/abs/2602.11337">MolmoSpaces</a>（RSS 2026）相關的 robot-learning research；主要建置真實機器人 policy deployment、teleoperation、evaluation 與 control tooling</li>
+        <li>在 3 個真實機器人平台上建立即時 imitation-learning deployment infrastructure（Franka FR3、SO-100/SO-101 via LeRobot、YAM），將 100-episode rollout throughput 從約 4 小時提升到約 100 分鐘</li>
         <li>Fine-tune 並在真機上跑 VLA 與 imitation-learning policies，包括 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA 及 Diffusion Policy；加入 joint position/velocity action 支援與 Franka FR3 即時 inference</li>
-        <li>建立 data collection 流程，包含 calibration、錄製、驗證與 LeRobot-compatible dataset 轉換</li>
+        <li>建置 calibration、recording、validation 與 LeRobot-compatible conversion tooling，讓 policy deployment 與 evaluation 流程可重複</li>
         <li>實作 Franka FR3 與 YAM 的 GELLO teleoperation，並整合 Meta Quest 2 Cartesian-delta control（Polymetis 與 direct SDK）</li>
       </ul>
     </div>
@@ -110,10 +110,10 @@ lang_url: /cv/
         <span class="cv-timeline__role">Undergraduate Researcher</span>
         <span class="cv-timeline__date">2022 年 6 月 — 2024 年 6 月</span>
       </div>
-      <div class="cv-timeline__org">肩部超音波影像 segmentation — <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（UIUC DRES Lab）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 指導</div>
+      <div class="cv-timeline__org">肩部超音波醫學影像 segmentation — <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（UIUC DRES Lab）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 指導</div>
       <ul class="cv-timeline__details">
-        <li>主導肩部超音波影像軟組織 segmentation 研究，實作 U-Net、Mask R-CNN 與 DeepLab V3+；成果以第一作者發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691">IEEE Access</a></li>
-        <li>開發結合 VGG 與 ANN 的 deep learning model，從肩部超音波影像分類脊髓損傷（SCI）</li>
+        <li>主導肩部超音波醫學影像的軟組織 segmentation 研究，實作 U-Net、Mask R-CNN 與 DeepLab V3+；成果以第一作者身分發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691">IEEE Access</a></li>
+        <li>開發結合 VGG 與 ANN 的 deep learning model，以肩部超音波醫學影像進行脊髓損傷（SCI）分類</li>
         <li>獲選教育部海外實習計畫獎學金（2022 及 2023）</li>
       </ul>
     </div>
@@ -198,13 +198,16 @@ lang_url: /cv/
   <h2>論文發表</h2>
   <ol class="cv-pub-list">
     <li>
+      Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em>arXiv:2605.02881</em>, 2026. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
+    </li>
+    <li>
       Abhay Deshpande, Maya Guru, Rose Hendrix, Snehal Jauhri, Ainaz Eftekhar, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Georgia Chalvatzaki, Dhruv Shah, and Ranjay Krishna, "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em>arXiv:2603.16861</em>, 2026. <a href="https://arxiv.org/abs/2603.16861">arXiv</a> | <a href="https://github.com/allenai/MolmoBot">Code</a>
     </li>
     <li>
-      Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em>RSS 2026</em>. <a href="https://arxiv.org/abs/2602.11337">arXiv</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
+      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>arXiv preprint</em>, 2026. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
     </li>
     <li>
-      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>arXiv preprint</em>, 2026. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
+      Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em>RSS 2026</em>. <a href="https://arxiv.org/abs/2602.11337">arXiv</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
     </li>
     <li>
       <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, Chia-Chun Hsiao, Pu-Chun Mo, Jiaqi Guo, and Yih-Kuen Jan, "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em>IEEE Access</em>，第 12 卷，頁 111,481–111,492，2024 年 7 月. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>

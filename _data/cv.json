@@ -4,7 +4,7 @@
     "email": "thomas910829@gmail.com",
     "phone": "",
     "website": "https://thomas0829.github.io",
-    "summary": "ECE master's student at the University of Washington working on VLA, robot learning, robotics software, and software systems.",
+    "summary": "ECE master's student at the University of Washington working on robot learning, real-robot systems, and software engineering.",
     "location": {
       "city": "Seattle",
       "countryCode": "US",
@@ -78,28 +78,34 @@
   ],
   "publications": [
     {
-      "name": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images",
-      "publisher": "IEEE Access",
-      "releaseDate": "2024-07-01",
-      "website": "https://doi.org/10.1109/ACCESS.2024.3432691"
-    },
-    {
-      "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
       "publisher": "arXiv preprint",
-      "releaseDate": "2026-02-01",
-      "website": "https://arxiv.org/abs/2602.19313"
-    },
-    {
-      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
-      "publisher": "Robotics: Science and Systems (RSS) 2026",
-      "releaseDate": "2026-02-02",
-      "website": "https://arxiv.org/abs/2602.11337"
+      "releaseDate": "2026-05-04",
+      "website": "https://arxiv.org/abs/2605.02881"
     },
     {
       "name": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
       "publisher": "arXiv preprint",
       "releaseDate": "2026-03-01",
       "website": "https://arxiv.org/abs/2603.16861"
+    },
+    {
+      "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-02-22",
+      "website": "https://arxiv.org/abs/2602.19313"
+    },
+    {
+      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
+      "publisher": "Robotics: Science and Systems (RSS) 2026",
+      "releaseDate": "2026-02-11",
+      "website": "https://arxiv.org/abs/2602.11337"
+    },
+    {
+      "name": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images",
+      "publisher": "IEEE Access",
+      "releaseDate": "2024-07-01",
+      "website": "https://doi.org/10.1109/ACCESS.2024.3432691"
     }
   ]
 }

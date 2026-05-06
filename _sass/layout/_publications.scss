@@ -53,6 +53,7 @@
 .pub-page__thumb {
   flex-shrink: 0;
   width: 220px;
+  aspect-ratio: 16 / 9;
   align-self: center;
 
   @media (max-width: 600px) {
@@ -63,11 +64,18 @@
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    box-sizing: border-box;
     border-radius: 8px;
     border: 1px solid var(--global-border-color);
     object-fit: cover;
     transition: all 0.25s ease;
+
+    &.pub-page__image--contain {
+      padding: 10px;
+      object-fit: contain;
+      background: #fff;
+    }
 
     &:hover {
       box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
