@@ -25,6 +25,13 @@
   },
   "work": [
     {
+      "company": "Amazon",
+      "position": "Software Development Engineer Intern",
+      "startDate": "2026-06-01",
+      "endDate": "2026-09-01",
+      "summary": "Software development engineering in Seattle"
+    },
+    {
       "company": "Research collaboration with Jiafei Duan and collaborators from Ai2 PRIOR",
       "position": "Research Collaboration",
       "startDate": "2025-10-01",
@@ -52,7 +59,7 @@
       "area": "M.S. in Electrical and Computer Engineering",
       "startDate": "2025-09-01",
       "endDate": "2027-03-01",
-      "gpa": "3.95/4.0"
+      "gpa": "3.98/4.0"
     },
     {
       "institution": "Yuan Ze University",

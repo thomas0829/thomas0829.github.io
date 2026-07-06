@@ -42,7 +42,7 @@ My robotics experience spans a Robotics Engineer Internship at <strong>Chang Chu
 </p>
 
 <p>
-Before UW, I conducted research on deep learning-based shoulder ultrasound medical image segmentation with guidance from <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> at the <strong>DRES Lab, University of Illinois at Urbana-Champaign (UIUC)</strong>, and <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a>. That project became a first-author paper in <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>. In June 2026, I'll join <strong>Amazon</strong> as a Software Development Engineer Intern.
+Before UW, I conducted research on deep learning-based shoulder ultrasound medical image segmentation with guidance from <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> at the <strong>DRES Lab, University of Illinois at Urbana-Champaign (UIUC)</strong>, and <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a>. That project became a first-author paper in <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>. In June 2026, I joined <strong>Amazon</strong> as a Software Development Engineer Intern.
 </p>
 </div>
 
@@ -76,7 +76,7 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
 <h2>Updates</h2>
 <div class="home-news__pin">
     <span class="news-date">Jun 2026</span>
-    <span class="news-content">Joining <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern in June 2026.</span>
+    <span class="news-content">Joined <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern in June 2026.</span>
 </div>
 
 <div class="home-news__recent" data-news-carousel>

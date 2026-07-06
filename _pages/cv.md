@@ -29,7 +29,7 @@ redirect_from:
       <div class="cv-edu-card__degree">M.S. in Electrical and Computer Engineering</div>
       <div class="cv-edu-card__school">University of Washington, Seattle, WA</div>
       <div class="cv-edu-card__date">Sep 2025 — Mar 2027 (Expected)</div>
-      <div class="cv-edu-card__gpa">GPA: 3.95 / 4.0</div>
+      <div class="cv-edu-card__gpa">GPA: 3.98 / 4.0</div>
     </div>
     <div class="cv-edu-card">
       <div class="cv-edu-card__degree">B.S. in Electrical Engineering</div>
@@ -46,8 +46,8 @@ redirect_from:
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Software Development Engineer Intern <span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
-        <span class="cv-timeline__date">Jun 2026 — Sep 2026</span>
+        <span class="cv-timeline__role">Software Development Engineer Intern</span>
+        <span class="cv-timeline__date">Jun 2026 — Present</span>
       </div>
       <div class="cv-timeline__org">Amazon — Seattle, WA</div>
     </div>
@@ -222,10 +222,10 @@ redirect_from:
   <div class="cv-timeline">
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Taiwan Ministry of Education Overseas Internship Scholarship</span>
-        <span class="cv-timeline__date">2022 &amp; 2023</span>
+        <span class="cv-timeline__role">Engineering Capstone Team MVP Award</span>
+        <span class="cv-timeline__date">2026</span>
       </div>
-      <div class="cv-timeline__org">Selected to conduct research at UIUC</div>
+      <div class="cv-timeline__org">University of Washington</div>
     </div>
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
@@ -233,6 +233,13 @@ redirect_from:
         <span class="cv-timeline__date">2024</span>
       </div>
       <div class="cv-timeline__org">Yuan Ze University</div>
+    </div>
+    <div class="cv-timeline__item">
+      <div class="cv-timeline__header">
+        <span class="cv-timeline__role">Taiwan Ministry of Education Overseas Internship Scholarship</span>
+        <span class="cv-timeline__date">2022 &amp; 2023</span>
+      </div>
+      <div class="cv-timeline__org">Selected to conduct research at UIUC</div>
     </div>
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">

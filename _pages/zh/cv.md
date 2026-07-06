@@ -27,7 +27,7 @@ lang_url: /cv/
       <div class="cv-edu-card__degree">電機與電腦工程碩士</div>
       <div class="cv-edu-card__school">華盛頓大學（University of Washington）<br/>西雅圖，美國</div>
       <div class="cv-edu-card__date">2025 年 9 月 — 2027 年 3 月（預計）</div>
-      <div class="cv-edu-card__gpa">GPA：3.95 / 4.0</div>
+      <div class="cv-edu-card__gpa">GPA：3.98 / 4.0</div>
     </div>
     <div class="cv-edu-card">
       <div class="cv-edu-card__degree">電機工程學士</div>
@@ -44,8 +44,8 @@ lang_url: /cv/
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Software Development Engineer Intern <span class="cv-tag cv-tag--upcoming">Upcoming</span></span>
-        <span class="cv-timeline__date">2026 年 6 月 — 9 月</span>
+        <span class="cv-timeline__role">Software Development Engineer Intern</span>
+        <span class="cv-timeline__date">2026 年 6 月 — 至今</span>
       </div>
       <div class="cv-timeline__org">Amazon — 西雅圖</div>
     </div>
@@ -220,10 +220,10 @@ lang_url: /cv/
   <div class="cv-timeline">
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">教育部海外實習計畫獎學金</span>
-        <span class="cv-timeline__date">2022 及 2023</span>
+        <span class="cv-timeline__role">Engineering Capstone Team MVP Award</span>
+        <span class="cv-timeline__date">2026 年</span>
       </div>
-      <div class="cv-timeline__org">獲選赴 UIUC 進行研究</div>
+      <div class="cv-timeline__org">University of Washington</div>
     </div>
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
@@ -231,6 +231,13 @@ lang_url: /cv/
         <span class="cv-timeline__date">2024 年</span>
       </div>
       <div class="cv-timeline__org">元智大學</div>
+    </div>
+    <div class="cv-timeline__item">
+      <div class="cv-timeline__header">
+        <span class="cv-timeline__role">教育部海外實習計畫獎學金</span>
+        <span class="cv-timeline__date">2022 及 2023</span>
+      </div>
+      <div class="cv-timeline__org">獲選赴 UIUC 進行研究</div>
     </div>
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">

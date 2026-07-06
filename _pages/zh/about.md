@@ -39,7 +39,7 @@ lang_url: /
 </p>
 
 <p>
-到 UW 之前，我在 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（<strong>UIUC DRES Lab</strong>）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 的指導下，做肩部超音波醫學影像的 deep learning segmentation。這個研究後來以第一作者身分發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。2026 年 6 月，我會加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
+到 UW 之前，我在 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（<strong>UIUC DRES Lab</strong>）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 的指導下，做肩部超音波醫學影像的 deep learning segmentation。這個研究後來以第一作者身分發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。2026 年 6 月，我加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
 </p>
 </div>
 
@@ -73,7 +73,7 @@ lang_url: /
 <h2>動態</h2>
 <div class="home-news__pin">
     <span class="news-date">2026.06</span>
-    <span class="news-content">2026 年 6 月將加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
+    <span class="news-content">2026 年 6 月加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
 </div>
 
 <div class="home-news__recent" data-news-carousel>
