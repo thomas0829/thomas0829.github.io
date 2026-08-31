@@ -52,6 +52,7 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #c8cdd1;
     --global-peer-reviewed-color        : #{mix(#fff, $primary-color, 40%)};
+    --global-publication-venue-color    : #d6dadd;
     --global-accent-soft-bg-color       : rgba(110, 199, 220, 0.14);
     --global-accent-soft-border-color   : rgba(110, 199, 220, 0.48);
     --global-thead-color                : #{$background-lighter};

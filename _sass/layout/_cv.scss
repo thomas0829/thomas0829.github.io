@@ -367,11 +367,11 @@
     }
 
     em {
-      color: var(--global-text-color-light);
+      color: var(--global-publication-venue-color, var(--global-text-color));
     }
 
     .pub-venue--published {
-      color: var(--global-peer-reviewed-color, var(--global-base-color));
+      color: var(--global-publication-venue-color, var(--global-text-color));
       font-weight: 700;
     }
 
