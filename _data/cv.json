@@ -85,6 +85,12 @@
   ],
   "publications": [
     {
+      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
+      "publisher": "Robotics: Science and Systems (RSS) 2026",
+      "releaseDate": "2026-07-13",
+      "website": "https://roboticsconference.org/program/papers/91/"
+    },
+    {
       "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
       "publisher": "arXiv preprint",
       "releaseDate": "2026-05-04",
@@ -101,12 +107,6 @@
       "publisher": "arXiv preprint",
       "releaseDate": "2026-02-22",
       "website": "https://arxiv.org/abs/2602.19313"
-    },
-    {
-      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
-      "publisher": "Robotics: Science and Systems (RSS) 2026",
-      "releaseDate": "2026-02-11",
-      "website": "https://arxiv.org/abs/2602.11337"
     },
     {
       "name": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images",

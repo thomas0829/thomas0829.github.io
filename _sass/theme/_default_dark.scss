@@ -39,7 +39,7 @@ html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
+    --global-border-color               : #{mix(#fff, $background, 20%)};
     --global-dark-border-color          : #{$background-light};
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
@@ -50,7 +50,10 @@ html[data-theme="dark"] {
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
+    --global-text-color-light           : #c8cdd1;
+    --global-peer-reviewed-color        : #{mix(#fff, $primary-color, 40%)};
+    --global-accent-soft-bg-color       : rgba(110, 199, 220, 0.14);
+    --global-accent-soft-border-color   : rgba(110, 199, 220, 0.48);
     --global-thead-color                : #{$background-lighter};
 }
 

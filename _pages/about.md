@@ -90,12 +90,12 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   </div>
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
-      <span class="news-date">May 2026</span>
-      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> is available as an <a href="https://arxiv.org/abs/2605.02881">arXiv preprint</a>.</span>
+      <span class="news-date">Jul 2026</span>
+      <span class="news-content"><a href="https://roboticsconference.org/program/papers/91/"><strong>MolmoSpaces</strong></a> was published at Robotics: Science and Systems (RSS) 2026.</span>
     </li>
     <li class="home-news__slide">
-      <span class="news-date">Apr 2026</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> was accepted to Robotics: Science and Systems (RSS) 2026.</span>
+      <span class="news-date">May 2026</span>
+      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> is available as an <a href="https://arxiv.org/abs/2605.02881">arXiv preprint</a>.</span>
     </li>
     <li class="home-news__slide">
       <span class="news-date">Mar 2026</span>
@@ -104,10 +104,6 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
     <li class="home-news__slide">
       <span class="news-date">Feb 2026</span>
       <span class="news-content"><a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> is available as an <a href="https://arxiv.org/abs/2602.19313">arXiv preprint</a>.</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">Feb 2026</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> is available as an <a href="https://arxiv.org/abs/2602.11337">arXiv preprint</a>.</span>
     </li>
   </ul>
   <div class="home-news__dots" data-news-dots aria-hidden="true"></div>

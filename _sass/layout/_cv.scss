@@ -221,8 +221,8 @@
   color: var(--global-text-color);
   font-weight: 700;
   white-space: nowrap;
-  background: rgba(47, 127, 147, 0.08);
-  border: 1px solid rgba(47, 127, 147, 0.32);
+  background: var(--global-accent-soft-bg-color, rgba(47, 127, 147, 0.08));
+  border: 1px solid var(--global-accent-soft-border-color, rgba(47, 127, 147, 0.32));
   padding: 0.15em 0.6em;
   border-radius: 12px;
 
@@ -355,7 +355,7 @@
       top: 0.7em;
       font-weight: 700;
       font-size: 0.85em;
-      color: var(--global-base-color);
+      color: var(--global-peer-reviewed-color, var(--global-base-color));
       width: 2em;
       text-align: right;
     }
@@ -370,8 +370,13 @@
       color: var(--global-text-color-light);
     }
 
+    .pub-venue--published {
+      color: var(--global-peer-reviewed-color, var(--global-base-color));
+      font-weight: 700;
+    }
+
     a {
-      color: var(--global-base-color);
+      color: var(--global-peer-reviewed-color, var(--global-base-color));
       text-decoration: none;
       font-weight: 500;
 

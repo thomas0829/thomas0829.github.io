@@ -47,7 +47,7 @@ redirect_from:
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
         <span class="cv-timeline__role">Software Development Engineer Intern</span>
-        <span class="cv-timeline__date">Jun 2026 — Present</span>
+        <span class="cv-timeline__date">Jun 2026 — Sep 2026</span>
       </div>
       <div class="cv-timeline__org">Amazon — Seattle, WA</div>
       <ul class="cv-timeline__details">
@@ -67,7 +67,7 @@ redirect_from:
       </div>
       <div class="cv-timeline__org">with Jiafei Duan and collaborators from Ai2 PRIOR</div>
       <ul class="cv-timeline__details">
-        <li>Contributed to robot-learning research associated with <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a>, <a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a>, <a href="https://arxiv.org/abs/2602.19313">TOPReward</a>, and <a href="https://arxiv.org/abs/2602.11337">MolmoSpaces</a> (RSS 2026); built infrastructure for real-robot policy deployment, teleoperation, evaluation, and control tooling</li>
+        <li>Contributed to robot-learning research associated with <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a>, <a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a>, <a href="https://arxiv.org/abs/2602.19313">TOPReward</a>, and <a href="https://roboticsconference.org/program/papers/91/">MolmoSpaces</a> (RSS 2026); built infrastructure for real-robot policy deployment, teleoperation, evaluation, and control tooling</li>
         <li>Set up real-time imitation-learning deployment infrastructure on 3 robot platforms (Franka FR3, SO-100/SO-101 via LeRobot, YAM), improving 100-episode rollout throughput from ~4 hours to ~100 minutes</li>
         <li>Fine-tuned and ran VLA and imitation-learning policies including &pi;<sub>0</sub>, &pi;<sub>0.5</sub>, &pi;<sub>0</sub>-FAST, ACT, SmolVLA, and Diffusion Policy on real hardware; added joint-position/velocity action support and real-time FR3 inference</li>
         <li>Built platform tooling around calibration, recording, validation, and LeRobot-compatible conversion to make policy deployment and evaluation reproducible</li>
@@ -78,7 +78,7 @@ redirect_from:
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
         <span class="cv-timeline__role">Software Systems Project Lead — <a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
-        <span class="cv-timeline__date">Sep 2025 — Present</span>
+        <span class="cv-timeline__date">Sep 2025 — May 2026</span>
       </div>
       <div class="cv-timeline__org">University of Washington — Seattle, WA</div>
       <ul class="cv-timeline__details">
@@ -208,6 +208,9 @@ redirect_from:
   <h2>Publications</h2>
   <ol class="cv-pub-list">
     <li>
+      Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em class="pub-venue--published">RSS 2026</em>. <a href="https://roboticsconference.org/program/papers/91/">RSS</a> | <a href="https://www.roboticsproceedings.org/rss22/p091.pdf">PDF</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
+    </li>
+    <li>
       Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em>arXiv:2605.02881</em>, 2026. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
     </li>
     <li>
@@ -217,10 +220,7 @@ redirect_from:
       Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>arXiv preprint</em>, 2026. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
     </li>
     <li>
-      Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em>RSS 2026</em>. <a href="https://arxiv.org/abs/2602.11337">arXiv</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
-    </li>
-    <li>
-      <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, Chia-Chun Hsiao, Pu-Chun Mo, Jiaqi Guo, and Yih-Kuen Jan, "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em>IEEE Access</em>, Vol. 12, pp. 111,481-111,492, July 2024. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>
+      <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, Chia-Chun Hsiao, Pu-Chun Mo, Jiaqi Guo, and Yih-Kuen Jan, "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em class="pub-venue--published">IEEE Access</em>, Vol. 12, pp. 111,481-111,492, July 2024. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>
     </li>
   </ol>
 </div>

@@ -43,6 +43,9 @@ $sidebar-screen-min-width   : 1024px;
     --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
+    --global-peer-reviewed-color        : #{$primary-color};
+    --global-accent-soft-bg-color       : rgba(47, 127, 147, 0.08);
+    --global-accent-soft-border-color   : rgba(47, 127, 147, 0.32);
     --global-thead-color                : #{$lighter-gray};
 }
 

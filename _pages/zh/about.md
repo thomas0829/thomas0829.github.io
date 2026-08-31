@@ -87,12 +87,12 @@ lang_url: /
   </div>
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
-      <span class="news-date">2026.05</span>
-      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> 已在 <a href="https://arxiv.org/abs/2605.02881">arXiv</a> 上線。</span>
+      <span class="news-date">2026.07</span>
+      <span class="news-content"><a href="https://roboticsconference.org/program/papers/91/"><strong>MolmoSpaces</strong></a> 正式發表於 Robotics: Science and Systems（RSS）2026。</span>
     </li>
     <li class="home-news__slide">
-      <span class="news-date">2026.04</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 被 Robotics: Science and Systems（RSS）2026 接收。</span>
+      <span class="news-date">2026.05</span>
+      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> 已在 <a href="https://arxiv.org/abs/2605.02881">arXiv</a> 上線。</span>
     </li>
     <li class="home-news__slide">
       <span class="news-date">2026.03</span>
@@ -101,10 +101,6 @@ lang_url: /
     <li class="home-news__slide">
       <span class="news-date">2026.02</span>
       <span class="news-content"><a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已在 <a href="https://arxiv.org/abs/2602.19313">arXiv</a> 上線。</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">2026.02</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.11337"><strong>MolmoSpaces</strong></a> 已在 <a href="https://arxiv.org/abs/2602.11337">arXiv</a> 上線。</span>
     </li>
   </ul>
   <div class="home-news__dots" data-news-dots aria-hidden="true"></div>
