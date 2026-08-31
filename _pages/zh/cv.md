@@ -48,6 +48,14 @@ lang_url: /cv/
         <span class="cv-timeline__date">2026 年 6 月 — 至今</span>
       </div>
       <div class="cv-timeline__org">Amazon — 西雅圖</div>
+      <ul class="cv-timeline__details">
+        <li>為企業平台建置並上線 self-service risk-labeling system，以 configuration-driven classification management 取代反覆的 schema migration 與 code deployment</li>
+        <li>使用 Smithy、Hibernate/JPA 與 Amazon Aurora PostgreSQL，為部署於 AWS Lambda 的 Java 17 services 設計並上線 18 個 REST API operations</li>
+        <li>透過 persisted records 推導 access decisions，並實作具 explicit transaction handling、constraint translation 與 post-transaction reads 的 idempotent writes，強化 record-scoped authorization 與 concurrent-write reliability</li>
+        <li>建置 keyset-batched bulk labeling，每個 request 最多處理 500 個 risks，提供 item-level outcomes 與 partial-success handling，使 valid records 在其他項目被 skipped 或 unchanged 時仍能繼續處理</li>
+        <li>使用 React 18、TypeScript、Cloudscape Design System 與 TanStack Query 開發 governance/reporting interface，具備 filtering、grouping、usage drill-downs、change history，以及防 formula injection 的 CSV/XLSX exports</li>
+        <li>將 grouped-report API calls 從 10 次降至 1 次（減少 90%），並將 data-fetch latency 降低約 80%</li>
+      </ul>
     </div>
 
     <div class="cv-timeline__item">

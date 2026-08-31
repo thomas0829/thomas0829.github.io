@@ -50,6 +50,14 @@ redirect_from:
         <span class="cv-timeline__date">Jun 2026 — Present</span>
       </div>
       <div class="cv-timeline__org">Amazon — Seattle, WA</div>
+      <ul class="cv-timeline__details">
+        <li>Built and launched a self-service risk-labeling system for an enterprise platform, replacing recurring schema migrations and code deployments with configuration-driven classification management</li>
+        <li>Designed and shipped 18 REST API operations for Java 17 services deployed on AWS Lambda using Smithy, Hibernate/JPA, and Amazon Aurora PostgreSQL</li>
+        <li>Strengthened record-scoped authorization and concurrent-write reliability by deriving access decisions from persisted records and implementing idempotent writes with explicit transaction handling, constraint translation, and post-transaction reads</li>
+        <li>Engineered keyset-batched bulk labeling for up to 500 risks per request with item-level outcomes and partial-success handling, allowing valid records to proceed when others were skipped or unchanged</li>
+        <li>Developed a React 18/TypeScript governance and reporting interface using the Cloudscape Design System and TanStack Query, with filtering, grouping, usage drill-downs, change history, and formula-injection-safe CSV/XLSX exports</li>
+        <li>Reduced grouped-report API calls from 10 to 1 (90%), lowering data-fetch latency by approximately 80%</li>
+      </ul>
     </div>
 
     <div class="cv-timeline__item">
