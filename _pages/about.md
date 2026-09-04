@@ -61,7 +61,7 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   </li>
   <li>
     <span class="highlight-title"><a href="https://www.ccp.com.tw/">Chang Chun Group — Information Center</a></span>
-    <span class="highlight-meta">Robotics Software Engineer Intern</span>
+    <span class="highlight-meta">Robotics Internship</span>
     <span class="highlight-text">Built an NVIDIA Isaac Sim digital twin and imitation-learning tooling for the ALOHA-ViperX 300S robotic arm.</span>
   </li>
   <li>

@@ -58,7 +58,7 @@ lang_url: /
   </li>
   <li>
     <span class="highlight-title"><a href="https://www.ccp.com.tw/">長春集團資訊中心</a></span>
-    <span class="highlight-meta">Robotics Software Engineer Intern</span>
+    <span class="highlight-meta">Robotics Internship</span>
     <span class="highlight-text">為 ALOHA-ViperX 300S 機械手臂建置 NVIDIA Isaac Sim digital twin 與 imitation-learning tooling。</span>
   </li>
   <li>
