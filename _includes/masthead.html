@@ -25,13 +25,13 @@
     </nav>
 
     <div class="masthead__actions">
-      <div class="lang-seg">
+      <div class="lang-seg" aria-label="Language">
         {% if page.lang == 'zh' %}
-          <a href="{{ page.lang_url | default: '/' }}" class="lang-seg__item">EN</a>
-          <span class="lang-seg__item lang-seg__item--active">中文</span>
+          <a href="{{ page.lang_url | default: '/' }}" class="lang-seg__item" lang="en" hreflang="en" data-language-preference="en">EN</a>
+          <span class="lang-seg__item lang-seg__item--active" lang="zh-Hant" aria-current="page">中文</span>
         {% else %}
-          <span class="lang-seg__item lang-seg__item--active">EN</span>
-          <a href="{{ page.lang_url | default: '/zh/' }}" class="lang-seg__item">中文</a>
+          <span class="lang-seg__item lang-seg__item--active" lang="en" aria-current="page">EN</span>
+          <a href="{{ page.lang_url | default: '/zh/' }}" class="lang-seg__item" lang="zh-Hant" hreflang="zh-Hant" data-language-preference="zh">中文</a>
         {% endif %}
       </div>
       <div id="theme-toggle" class="theme-btn">

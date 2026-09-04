@@ -1,0 +1,53 @@
+{% if page.lang and page.lang_url %}
+<script>
+  (function () {
+    "use strict";
+
+    var storageKey = "site-language-preference";
+    var currentLanguage = {{ page.lang | jsonify }};
+    var alternateUrl = {{ page.lang_url | relative_url | jsonify }};
+    var storedLanguage = null;
+
+    try {
+      storedLanguage = window.localStorage.getItem(storageKey);
+    } catch (error) {
+      storedLanguage = null;
+    }
+
+    var browserLanguage = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || "";
+    var detectedLanguage = /^zh(?:[-_]|$)/i.test(browserLanguage) ? "zh" : "en";
+    var hasStoredPreference = storedLanguage === "en" || storedLanguage === "zh";
+    var preferredLanguage = hasStoredPreference ? storedLanguage : detectedLanguage;
+    var shouldRedirect = hasStoredPreference
+      ? preferredLanguage !== currentLanguage
+      : currentLanguage === "en" && preferredLanguage === "zh";
+
+    if (shouldRedirect && alternateUrl) {
+      window.location.replace(alternateUrl + window.location.search + window.location.hash);
+      return;
+    }
+
+    document.addEventListener("click", function (event) {
+      var target = event.target;
+      var languageLink = target && target.closest
+        ? target.closest("[data-language-preference]")
+        : null;
+
+      if (!languageLink) {
+        return;
+      }
+
+      var language = languageLink.getAttribute("data-language-preference");
+      if (language !== "en" && language !== "zh") {
+        return;
+      }
+
+      try {
+        window.localStorage.setItem(storageKey, language);
+      } catch (error) {
+        /* Navigation still works when storage is unavailable. */
+      }
+    }, true);
+  }());
+</script>
+{% endif %}

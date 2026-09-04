@@ -71,24 +71,24 @@
   ],
   "skills": [
     {
+      "name": "Relevant Coursework",
+      "keywords": ["ROS", "Self-Driving Cars", "Software Development", "Embedded Systems", "Smart Systems", "Artificial Intelligence", "Deep Learning", "Computer Vision", "Internet of Things", "Cloud Computing"]
+    },
+    {
       "name": "Programming",
-      "keywords": ["Python", "C", "C++", "JavaScript", "HTML", "CSS", "SQL"]
+      "keywords": ["Python", "C", "C++", "Java", "TypeScript", "React", "HTML", "CSS", "SQL"]
     },
     {
-      "name": "Robotics / VLA / AI",
-      "keywords": ["VLA", "Robot Learning", "Reinforcement Learning", "Reward Modeling", "Imitation Learning", "LeRobot", "ROS2", "Polymetis", "NVIDIA Isaac Sim", "PyTorch", "OpenCV"]
-    },
-    {
-      "name": "Software Systems",
-      "keywords": ["React", "Node.js", "Flask", "Docker", "Kubernetes", "AWS", "GCP", "Redis", "Celery", "GitHub GraphQL/REST"]
+      "name": "Tools & Frameworks",
+      "keywords": ["ROS 2", "NVIDIA Isaac Sim", "Omniverse USD", "PyTorch", "OpenCV", "NumPy", "PIL", "Docker", "AWS", "GCP"]
     }
   ],
   "publications": [
     {
-      "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
       "publisher": "Conference on Robot Learning (CoRL)",
-      "releaseDate": "2026-05-04",
-      "website": "https://arxiv.org/abs/2605.02881"
+      "releaseDate": "2026-02-22",
+      "website": "https://arxiv.org/abs/2602.19313"
     },
     {
       "name": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
@@ -97,10 +97,10 @@
       "website": "https://arxiv.org/abs/2603.16861"
     },
     {
-      "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
       "publisher": "Conference on Robot Learning (CoRL)",
-      "releaseDate": "2026-02-22",
-      "website": "https://arxiv.org/abs/2602.19313"
+      "releaseDate": "2026-05-04",
+      "website": "https://arxiv.org/abs/2605.02881"
     },
     {
       "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",

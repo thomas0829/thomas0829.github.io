@@ -206,13 +206,13 @@ lang_url: /cv/
   <h2>論文發表</h2>
   <ol class="cv-pub-list">
     <li>
-      Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
+      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
     </li>
     <li>
       Abhay Deshpande, Maya Guru, Rose Hendrix, Snehal Jauhri, Ainaz Eftekhar, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Georgia Chalvatzaki, Dhruv Shah, and Ranjay Krishna, "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2603.16861">arXiv</a> | <a href="https://github.com/allenai/MolmoBot">Code</a>
     </li>
     <li>
-      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
+      Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
     </li>
     <li>
       Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em class="pub-venue--published">RSS 2026</em>. <a href="https://roboticsconference.org/program/papers/91/">RSS</a> | <a href="https://www.roboticsproceedings.org/rss22/p091.pdf">PDF</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
@@ -275,64 +275,49 @@ lang_url: /cv/
   <h2>技能</h2>
 
   <div class="cv-skills-group">
+    <h3>相關課程</h3>
+    <div class="cv-tags">
+      <span class="cv-tag">ROS</span>
+      <span class="cv-tag">Self-Driving Cars</span>
+      <span class="cv-tag">Software Development</span>
+      <span class="cv-tag">Embedded Systems</span>
+      <span class="cv-tag">Smart Systems</span>
+      <span class="cv-tag">Artificial Intelligence</span>
+      <span class="cv-tag">Deep Learning</span>
+      <span class="cv-tag">Computer Vision</span>
+      <span class="cv-tag">Internet of Things</span>
+      <span class="cv-tag">Cloud Computing</span>
+    </div>
+  </div>
+
+  <div class="cv-skills-group">
     <h3>程式語言</h3>
     <div class="cv-tags">
       <span class="cv-tag">Python</span>
       <span class="cv-tag">C</span>
       <span class="cv-tag">C++</span>
-      <span class="cv-tag">JavaScript</span>
+      <span class="cv-tag">Java</span>
+      <span class="cv-tag">TypeScript</span>
+      <span class="cv-tag">React</span>
       <span class="cv-tag">HTML</span>
       <span class="cv-tag">CSS</span>
       <span class="cv-tag">SQL</span>
-      <span class="cv-tag">MATLAB</span>
     </div>
   </div>
 
   <div class="cv-skills-group">
-    <h3>Robotics / VLA / AI</h3>
+    <h3>工具與框架</h3>
     <div class="cv-tags">
-      <span class="cv-tag">VLA</span>
-      <span class="cv-tag">Robot Learning</span>
-      <span class="cv-tag">Reinforcement Learning</span>
-      <span class="cv-tag">Reward Modeling</span>
-      <span class="cv-tag">Imitation Learning</span>
-      <span class="cv-tag">LeRobot</span>
-      <span class="cv-tag">ROS2</span>
-      <span class="cv-tag">Polymetis</span>
+      <span class="cv-tag">ROS 2</span>
       <span class="cv-tag">NVIDIA Isaac Sim</span>
+      <span class="cv-tag">Omniverse USD</span>
       <span class="cv-tag">PyTorch</span>
-      <span class="cv-tag">TensorFlow</span>
       <span class="cv-tag">OpenCV</span>
-      <span class="cv-tag">OWL-ViT</span>
-      <span class="cv-tag">Diffusion Policy</span>
-    </div>
-  </div>
-
-  <div class="cv-skills-group">
-    <h3>Software Systems</h3>
-    <div class="cv-tags">
-      <span class="cv-tag">React</span>
-      <span class="cv-tag">Node.js</span>
-      <span class="cv-tag">Flask</span>
+      <span class="cv-tag">NumPy</span>
+      <span class="cv-tag">PIL</span>
       <span class="cv-tag">Docker</span>
-      <span class="cv-tag">Kubernetes</span>
       <span class="cv-tag">AWS</span>
       <span class="cv-tag">GCP</span>
-      <span class="cv-tag">Redis</span>
-      <span class="cv-tag">Celery</span>
-      <span class="cv-tag">GitHub GraphQL/REST</span>
-    </div>
-  </div>
-
-  <div class="cv-skills-group">
-    <h3>Data & Analysis</h3>
-    <div class="cv-tags">
-      <span class="cv-tag">pandas</span>
-      <span class="cv-tag">NumPy</span>
-      <span class="cv-tag">SciPy</span>
-      <span class="cv-tag">Matplotlib</span>
-      <span class="cv-tag">Jupyter</span>
-      <span class="cv-tag">Git</span>
     </div>
   </div>
 </div>
