@@ -104,13 +104,13 @@ redirect_from:
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Robotics Engineer Intern</span>
+        <span class="cv-timeline__role">Robotics Software Engineer Intern</span>
         <span class="cv-timeline__date">Jul 2025 — Aug 2025</span>
       </div>
       <div class="cv-timeline__org">Chang Chun Group — Information Center, Taipei, Taiwan</div>
       <ul class="cv-timeline__details">
-        <li>Built an imitation-learning training platform for the ALOHA VX300S arm, reaching 100% grasp success in simulation across a 35-65 cm workspace</li>
-        <li>Developed a ROS2-Isaac Sim digital twin and Transformer-based ACT++ control pipeline with a three-stage trajectory planner</li>
+        <li>Built an imitation-learning training platform for the ALOHA-ViperX 300S robotic arm, achieving 100% grasp success across 30 simulation trials within a 35-65 cm workspace</li>
+        <li>Integrated a ROS 2/NVIDIA Isaac Sim digital twin with a transformer-based ACT++ control pipeline and a three-stage trajectory planner</li>
         <li>Added automated conversion to standard ACT++ HDF5 datasets for repeatable training runs</li>
       </ul>
     </div>

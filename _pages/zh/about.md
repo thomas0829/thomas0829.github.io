@@ -35,7 +35,7 @@ lang_url: /
 </p>
 
 <p>
-我的機器人經驗包含在<strong>長春集團資訊中心</strong>擔任 Robotics Engineer Intern 時為 ALOHA VX300S 建置 Isaac Sim digital twin 與 imitation-learning 平台、在 <strong>Husky Robotics</strong> 為火星探測車做 OWL-ViT perception 與 RealSense depth sensing，以及與 <a href="https://duanjiafei.com/">Jiafei Duan</a> 及 <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> 研究人員進行真實機器人 policy infrastructure 研究合作。
+我的機器人經驗包含在<strong>長春集團資訊中心</strong>擔任 Robotics Software Engineer Intern，為 ALOHA-ViperX 300S 機械手臂建置 NVIDIA Isaac Sim digital twin 與 imitation-learning 平台；在 <strong>Husky Robotics</strong> 為火星探測車做 OWL-ViT perception 與 RealSense depth sensing；以及與 <a href="https://duanjiafei.com/">Jiafei Duan</a> 及 <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> 研究人員進行真實機器人 policy infrastructure 研究合作。
 </p>
 
 <p>
@@ -58,8 +58,8 @@ lang_url: /
   </li>
   <li>
     <span class="highlight-title"><a href="https://www.ccp.com.tw/">長春集團資訊中心</a></span>
-    <span class="highlight-meta">Robotics Intern</span>
-    <span class="highlight-text">為 ALOHA VX300S 建置 Isaac Sim digital twin 與 imitation-learning tooling。</span>
+    <span class="highlight-meta">Robotics Software Engineer Intern</span>
+    <span class="highlight-text">為 ALOHA-ViperX 300S 機械手臂建置 NVIDIA Isaac Sim digital twin 與 imitation-learning tooling。</span>
   </li>
   <li>
     <span class="highlight-title"><a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
@@ -107,7 +107,7 @@ lang_url: /
   </li>
   <li>
     <span class="news-date">2025.08</span>
-    <span class="news-content">在<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a>擔任 Robotics Engineer Intern，為 ALOHA VX300S 建構 imitation-learning 平台。</span>
+    <span class="news-content">在<a href="https://www.ccp.com.tw/"><strong>長春集團資訊中心</strong></a>擔任 Robotics Software Engineer Intern，為 ALOHA-ViperX 300S 機械手臂建構 imitation-learning 平台。</span>
   </li>
   <li>
     <span class="news-date">2024.07</span>

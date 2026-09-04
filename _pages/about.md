@@ -38,7 +38,7 @@ Hi, I'm Ying-Chun Lee, and you can also call me Thomas. I'm a master's student i
 </p>
 
 <p>
-My robotics experience spans a Robotics Engineer Internship at <strong>Chang Chun Group</strong>'s Information Center, where I built an Isaac Sim digital twin and imitation-learning platform for the ALOHA VX300S arm; <strong>Husky Robotics</strong> rover perception with OWL-ViT and RealSense depth sensing; and research collaboration with <a href="https://duanjiafei.com/">Jiafei Duan</a> and collaborators from <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> on real-robot policy infrastructure.
+My robotics experience includes work as a Robotics Software Engineer Intern at <strong>Chang Chun Group</strong>'s Information Center, where I built an NVIDIA Isaac Sim digital twin and imitation-learning platform for the ALOHA-ViperX 300S robotic arm; <strong>Husky Robotics</strong> rover perception with OWL-ViT and RealSense depth sensing; and research collaboration with <a href="https://duanjiafei.com/">Jiafei Duan</a> and collaborators from <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> on real-robot policy infrastructure.
 </p>
 
 <p>
@@ -61,8 +61,8 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   </li>
   <li>
     <span class="highlight-title"><a href="https://www.ccp.com.tw/">Chang Chun Group — Information Center</a></span>
-    <span class="highlight-meta">Robotics Intern</span>
-    <span class="highlight-text">Built an Isaac Sim digital twin and imitation-learning tooling for ALOHA VX300S.</span>
+    <span class="highlight-meta">Robotics Software Engineer Intern</span>
+    <span class="highlight-text">Built an NVIDIA Isaac Sim digital twin and imitation-learning tooling for the ALOHA-ViperX 300S robotic arm.</span>
   </li>
   <li>
     <span class="highlight-title"><a href="https://github.com/thomas0829/Seattle-Source-Ranker">Seattle Source Ranker</a></span>
@@ -110,7 +110,7 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
-    <span class="news-content">Completed a Robotics Engineer Internship at <a href="https://www.ccp.com.tw/"><strong>Chang Chun Group — Information Center</strong></a>, building an imitation-learning platform for the ALOHA VX300S arm.</span>
+    <span class="news-content">Completed my internship at <a href="https://www.ccp.com.tw/"><strong>Chang Chun Group — Information Center</strong></a> as a Robotics Software Engineer Intern, building an imitation-learning platform for the ALOHA-ViperX 300S robotic arm.</span>
   </li>
   <li>
     <span class="news-date">Jul 2024</span>

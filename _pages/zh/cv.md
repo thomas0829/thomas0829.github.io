@@ -102,13 +102,13 @@ lang_url: /cv/
 
     <div class="cv-timeline__item">
       <div class="cv-timeline__header">
-        <span class="cv-timeline__role">Robotics Engineer Intern</span>
+        <span class="cv-timeline__role">Robotics Software Engineer Intern</span>
         <span class="cv-timeline__date">2025 年 7 月 — 8 月</span>
       </div>
       <div class="cv-timeline__org">長春集團 — 資訊中心，臺北</div>
       <ul class="cv-timeline__details">
-        <li>為 ALOHA VX300S 機械手臂建 imitation learning 訓練平台，在 35-65 cm workspace 達到 100% 模擬抓取成功率</li>
-        <li>開發 ROS2-Isaac Sim digital twin 與 Transformer-based ACT++ control pipeline，搭配三階段 trajectory planner</li>
+        <li>為 ALOHA-ViperX 300S 機械手臂建置 imitation-learning 訓練平台，在 35-65 cm workspace 內完成 30 次 simulation trials，達到 100% 模擬抓取成功率</li>
+        <li>整合 ROS 2/NVIDIA Isaac Sim digital twin、transformer-based ACT++ control pipeline 與三階段 trajectory planner</li>
         <li>加入自動轉換成標準 ACT++ HDF5 dataset 的流程，方便重複訓練</li>
       </ul>
     </div>
