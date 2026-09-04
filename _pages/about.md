@@ -42,7 +42,7 @@ My robotics experience spans a Robotics Engineer Internship at <strong>Chang Chu
 </p>
 
 <p>
-Before UW, I conducted research on deep learning-based shoulder ultrasound medical image segmentation with guidance from <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> at the <strong>DRES Lab, University of Illinois at Urbana-Champaign (UIUC)</strong>, and <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a>. That project became a first-author paper in <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>. In June 2026, I joined <strong>Amazon</strong> as a Software Development Engineer Intern.
+Before UW, I conducted research on deep learning-based shoulder ultrasound medical image segmentation with guidance from <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a> at the <strong>DRES Lab, University of Illinois at Urbana-Champaign (UIUC)</strong>, and <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a>. That project became a first-author paper in <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>. From June to September 2026, I was a Software Development Engineer Intern at <strong>Amazon</strong>.
 </p>
 </div>
 
@@ -75,8 +75,8 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
 <div class="home-section home-news">
 <h2>Updates</h2>
 <div class="home-news__pin">
-    <span class="news-date">Jun 2026</span>
-    <span class="news-content">Joined <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> as a Software Development Engineer Intern in June 2026.</span>
+    <span class="news-date">Sep 2026</span>
+    <span class="news-content">Completed my Software Development Engineer Internship at <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> in September 2026.</span>
 </div>
 
 <div class="home-news__recent" data-news-carousel>
@@ -90,20 +90,12 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   </div>
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
+      <span class="news-date">Sep 2026</span>
+      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a>, <a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a>, and <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> were accepted to the Conference on Robot Learning (CoRL) 2026.</span>
+    </li>
+    <li class="home-news__slide">
       <span class="news-date">Jul 2026</span>
       <span class="news-content"><a href="https://roboticsconference.org/program/papers/91/"><strong>MolmoSpaces</strong></a> was published at Robotics: Science and Systems (RSS) 2026.</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">May 2026</span>
-      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> is available as an <a href="https://arxiv.org/abs/2605.02881">arXiv preprint</a>.</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">Mar 2026</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> is available as an <a href="https://arxiv.org/abs/2603.16861">arXiv preprint</a>.</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">Feb 2026</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> is available as an <a href="https://arxiv.org/abs/2602.19313">arXiv preprint</a>.</span>
     </li>
   </ul>
   <div class="home-news__dots" data-news-dots aria-hidden="true"></div>

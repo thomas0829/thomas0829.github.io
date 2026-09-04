@@ -28,7 +28,7 @@
       "company": "Amazon",
       "position": "Software Development Engineer Intern",
       "startDate": "2026-06-01",
-      "endDate": "2026-09-01",
+      "endDate": "2026-09-04",
       "summary": "Software development engineering in Seattle"
     },
     {
@@ -85,28 +85,28 @@
   ],
   "publications": [
     {
-      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
-      "publisher": "Robotics: Science and Systems (RSS) 2026",
-      "releaseDate": "2026-07-13",
-      "website": "https://roboticsconference.org/program/papers/91/"
-    },
-    {
       "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
-      "publisher": "arXiv preprint",
+      "publisher": "Conference on Robot Learning (CoRL)",
       "releaseDate": "2026-05-04",
       "website": "https://arxiv.org/abs/2605.02881"
     },
     {
       "name": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
-      "publisher": "arXiv preprint",
+      "publisher": "Conference on Robot Learning (CoRL)",
       "releaseDate": "2026-03-01",
       "website": "https://arxiv.org/abs/2603.16861"
     },
     {
       "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
-      "publisher": "arXiv preprint",
+      "publisher": "Conference on Robot Learning (CoRL)",
       "releaseDate": "2026-02-22",
       "website": "https://arxiv.org/abs/2602.19313"
+    },
+    {
+      "name": "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation",
+      "publisher": "Robotics: Science and Systems (RSS) 2026",
+      "releaseDate": "2026-07-13",
+      "website": "https://roboticsconference.org/program/papers/91/"
     },
     {
       "name": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images",

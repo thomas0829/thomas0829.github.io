@@ -65,7 +65,7 @@ lang_url: /cv/
       </div>
       <div class="cv-timeline__org">與 Jiafei Duan 及 Ai2 PRIOR 研究人員合作</div>
       <ul class="cv-timeline__details">
-        <li>參與 <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a>、<a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a>、<a href="https://arxiv.org/abs/2602.19313">TOPReward</a> 與 <a href="https://roboticsconference.org/program/papers/91/">MolmoSpaces</a>（RSS 2026）相關的 robot-learning research；主要建置真實機器人 policy deployment、teleoperation、evaluation 與 control tooling</li>
+        <li>參與 <a href="https://arxiv.org/abs/2605.02881">MolmoAct2</a>、<a href="https://arxiv.org/abs/2603.16861">MolmoB0T</a> 與 <a href="https://arxiv.org/abs/2602.19313">TOPReward</a>（CoRL 2026），以及 <a href="https://roboticsconference.org/program/papers/91/">MolmoSpaces</a>（RSS 2026）相關的 robot-learning research；主要建置真實機器人 policy deployment、teleoperation、evaluation 與 control tooling</li>
         <li>在 3 個真實機器人平台上建立即時 imitation-learning deployment infrastructure（Franka FR3、SO-100/SO-101 via LeRobot、YAM），將 100-episode rollout throughput 從約 4 小時提升到約 100 分鐘</li>
         <li>Fine-tune 並在真機上跑 VLA 與 imitation-learning policies，包括 &pi;<sub>0</sub>、&pi;<sub>0.5</sub>、&pi;<sub>0</sub>-FAST、ACT、SmolVLA 及 Diffusion Policy；加入 joint position/velocity action 支援與 Franka FR3 即時 inference</li>
         <li>建置 calibration、recording、validation 與 LeRobot-compatible conversion tooling，讓 policy deployment 與 evaluation 流程可重複</li>
@@ -206,16 +206,16 @@ lang_url: /cv/
   <h2>論文發表</h2>
   <ol class="cv-pub-list">
     <li>
+      Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
+    </li>
+    <li>
+      Abhay Deshpande, Maya Guru, Rose Hendrix, Snehal Jauhri, Ainaz Eftekhar, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Georgia Chalvatzaki, Dhruv Shah, and Ranjay Krishna, "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2603.16861">arXiv</a> | <a href="https://github.com/allenai/MolmoBot">Code</a>
+    </li>
+    <li>
+      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em class="pub-venue--published">CoRL 2026</em>. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
+    </li>
+    <li>
       Yejin Kim, Wilbert Pumacay, Omar Rayyan, Max Argus, Winson Han, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation," <em class="pub-venue--published">RSS 2026</em>. <a href="https://roboticsconference.org/program/papers/91/">RSS</a> | <a href="https://www.roboticsproceedings.org/rss22/p091.pdf">PDF</a> | <a href="https://github.com/allenai/molmospaces">Code</a>
-    </li>
-    <li>
-      Haoquan Fang, Jiafei Duan, Donovan Clay, Sam Wang, Shuo Liu, ..., Winson Han, <span class="pub-me">Ying-Chun Lee</span>, ..., Ali Farhadi, Dieter Fox, and Ranjay Krishna, "MolmoAct2: Action Reasoning Models for Real-world Deployment," <em>arXiv:2605.02881</em>, 2026. <a href="https://arxiv.org/abs/2605.02881">arXiv</a> | <a href="https://allenai.org/blog/molmoact2">Project</a> | <a href="https://github.com/allenai/molmoact2">Code</a>
-    </li>
-    <li>
-      Abhay Deshpande, Maya Guru, Rose Hendrix, Snehal Jauhri, Ainaz Eftekhar, ..., <span class="pub-me">Ying-Chun Lee</span>, ..., Georgia Chalvatzaki, Dhruv Shah, and Ranjay Krishna, "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation," <em>arXiv:2603.16861</em>, 2026. <a href="https://arxiv.org/abs/2603.16861">arXiv</a> | <a href="https://github.com/allenai/MolmoBot">Code</a>
-    </li>
-    <li>
-      Shirui Chen, Cole Harrison, <span class="pub-me">Ying-Chun Lee</span>, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, and Ranjay Krishna, "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics," <em>arXiv preprint</em>, 2026. <a href="https://arxiv.org/abs/2602.19313">arXiv</a> | <a href="https://github.com/TOPReward/TOPReward">Code</a>
     </li>
     <li>
       <span class="pub-me">Ying-Chun Lee</span>, Chih-Yang Lin, Chia-Chun Hsiao, Pu-Chun Mo, Jiaqi Guo, and Yih-Kuen Jan, "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues from Shoulder Ultrasound Images," <em class="pub-venue--published">IEEE Access</em>，第 12 卷，頁 111,481–111,492，2024 年 7 月. <a href="https://doi.org/10.1109/ACCESS.2024.3432691">DOI</a>

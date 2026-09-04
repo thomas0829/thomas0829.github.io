@@ -39,7 +39,7 @@ lang_url: /
 </p>
 
 <p>
-到 UW 之前，我在 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（<strong>UIUC DRES Lab</strong>）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 的指導下，做肩部超音波醫學影像的 deep learning segmentation。這個研究後來以第一作者身分發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。2026 年 6 月，我加入 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
+到 UW 之前，我在 <a href="https://experts.illinois.edu/en/persons/yih-kuen-jan/">Prof. Yih-Kuen Jan</a>（<strong>UIUC DRES Lab</strong>）與 <a href="https://scholars.ncu.edu.tw/en/persons/chih-yang-lin/">Prof. Chih-Yang Lin</a> 的指導下，做肩部超音波醫學影像的 deep learning segmentation。這個研究後來以第一作者身分發表於 <a href="https://doi.org/10.1109/ACCESS.2024.3432691"><strong>IEEE Access</strong></a>。2026 年 6 月至 9 月，我在 <strong>Amazon</strong> 擔任 Software Development Engineer Intern。
 </p>
 </div>
 
@@ -72,8 +72,8 @@ lang_url: /
 <div class="home-section home-news">
 <h2>動態</h2>
 <div class="home-news__pin">
-    <span class="news-date">2026.06</span>
-    <span class="news-content">2026 年 6 月加入 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern。</span>
+    <span class="news-date">2026.09</span>
+    <span class="news-content">2026 年 9 月完成在 <a href="https://www.amazon.jobs/"><strong>Amazon</strong></a> 擔任 Software Development Engineer Intern 的實習。</span>
 </div>
 
 <div class="home-news__recent" data-news-carousel>
@@ -87,20 +87,12 @@ lang_url: /
   </div>
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
+      <span class="news-date">2026.09</span>
+      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a>、<a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> 與 <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 三篇論文皆獲 Conference on Robot Learning（CoRL）2026 接收。</span>
+    </li>
+    <li class="home-news__slide">
       <span class="news-date">2026.07</span>
       <span class="news-content"><a href="https://roboticsconference.org/program/papers/91/"><strong>MolmoSpaces</strong></a> 正式發表於 Robotics: Science and Systems（RSS）2026。</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">2026.05</span>
-      <span class="news-content"><a href="https://allenai.org/blog/molmoact2"><strong>MolmoAct2</strong></a> 已在 <a href="https://arxiv.org/abs/2605.02881">arXiv</a> 上線。</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">2026.03</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> 已在 <a href="https://arxiv.org/abs/2603.16861">arXiv</a> 上線。</span>
-    </li>
-    <li class="home-news__slide">
-      <span class="news-date">2026.02</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 已在 <a href="https://arxiv.org/abs/2602.19313">arXiv</a> 上線。</span>
     </li>
   </ul>
   <div class="home-news__dots" data-news-dots aria-hidden="true"></div>
