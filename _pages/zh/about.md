@@ -88,7 +88,7 @@ lang_url: /
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
       <span class="news-date">2026.09</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a>、<a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> 與 <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 三篇論文皆獲 Conference on Robot Learning（CoRL）2026 接收。</span>
+      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a>（<strong>Spotlight</strong>）、<a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a>（<strong>Oral</strong>）與 <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> 三篇論文皆獲 Conference on Robot Learning（CoRL）2026 接收。</span>
     </li>
     <li class="home-news__slide">
       <span class="news-date">2026.07</span>

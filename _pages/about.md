@@ -91,7 +91,7 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   <ul class="home-news__rail" data-news-slides>
     <li class="home-news__slide is-active">
       <span class="news-date">Sep 2026</span>
-      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a>, <a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a>, and <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> were accepted to the Conference on Robot Learning (CoRL) 2026.</span>
+      <span class="news-content"><a href="https://arxiv.org/abs/2605.02881"><strong>MolmoAct2</strong></a> (<strong>Spotlight</strong>), <a href="https://arxiv.org/abs/2603.16861"><strong>MolmoB0T</strong></a> (<strong>Oral</strong>), and <a href="https://arxiv.org/abs/2602.19313"><strong>TOPReward</strong></a> were accepted to the Conference on Robot Learning (CoRL) 2026.</span>
     </li>
     <li class="home-news__slide">
       <span class="news-date">Jul 2026</span>
