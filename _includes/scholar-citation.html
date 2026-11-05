@@ -1,0 +1,7 @@
+{% assign scholar_paper = site.data.scholar.papers[include.id] %}
+{% if scholar_paper %}
+<a class="pub-page__citation" href="{{ scholar_paper.url | escape }}"{% if scholar_paper.estimated %} title="{% if page.lang == 'zh' %}Google Scholar 的估計引用數，可能包含尚未確認的引用{% else %}Google Scholar estimate; may include unconfirmed citations{% endif %}"{% endif %}>
+  <span class="pub-page__citation-value">{{ scholar_paper.citations }}{% if scholar_paper.estimated %}<sup aria-label="{% if page.lang == 'zh' %}估計值{% else %}estimated{% endif %}">*</sup>{% endif %}</span>
+  <span class="pub-page__citation-label">{% if page.lang == 'zh' %}引用次數{% else %}Citations{% endif %}</span>
+</a>
+{% endif %}

@@ -14,6 +14,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Refresh citation metrics daily (07:23 UTC); Scholar may rate-limit requests.
+  schedule:
+    - cron: '23 7 * * *'
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -33,6 +37,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore last successful Scholar snapshot
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/scholar.json
+          key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: scholar-v1-
+      - name: Sync Google Scholar citations
+        run: python scripts/sync_scholar.py
+      - name: Save last successful Scholar snapshot
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/scholar.json
+          key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4

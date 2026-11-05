@@ -1,0 +1,43 @@
+{
+  "user": "mTx-qU0AAAAJ",
+  "name": "Ying-Chun Lee",
+  "url": "https://scholar.google.com/citations?user=mTx-qU0AAAAJ&hl=en",
+  "updated_at": "2026-11-05T00:21:49+00:00",
+  "metrics": {
+    "citations": 160,
+    "h_index": 4,
+    "i10_index": 4
+  },
+  "papers": {
+    "5nxA0vEk-isC": {
+      "title": "Molmoact2: Action reasoning models for real-world deployment",
+      "citations": 86,
+      "estimated": true,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mTx-qU0AAAAJ&pagesize=100&citation_for_view=mTx-qU0AAAAJ:5nxA0vEk-isC"
+    },
+    "hqOjcs7Dif8C": {
+      "title": "Topreward: Token probabilities as hidden zero-shot rewards for robotics",
+      "citations": 39,
+      "estimated": true,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mTx-qU0AAAAJ&pagesize=100&citation_for_view=mTx-qU0AAAAJ:hqOjcs7Dif8C"
+    },
+    "kNdYIx-mwKoC": {
+      "title": "Molmospaces: A large-scale open ecosystem for robot navigation and manipulation",
+      "citations": 19,
+      "estimated": true,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mTx-qU0AAAAJ&pagesize=100&citation_for_view=mTx-qU0AAAAJ:kNdYIx-mwKoC"
+    },
+    "8k81kl-MbHgC": {
+      "title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+      "citations": 14,
+      "estimated": false,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mTx-qU0AAAAJ&pagesize=100&citation_for_view=mTx-qU0AAAAJ:8k81kl-MbHgC"
+    },
+    "u5HHmVD_uO8C": {
+      "title": "Using Deep Learning-Based Methods for Automated Segmentation of Soft Tissues From Shoulder Ultrasound Images",
+      "citations": 2,
+      "estimated": false,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mTx-qU0AAAAJ&pagesize=100&citation_for_view=mTx-qU0AAAAJ:u5HHmVD_uO8C"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{% assign scholar = site.data.scholar %}
+{% if scholar.metrics %}
+<section class="scholar-summary" aria-label="{% if page.lang == 'zh' %}Google Scholar 引用統計{% else %}Google Scholar citation metrics{% endif %}">
+  <div class="scholar-summary__top">
+    <span class="scholar-summary__heading">{% if page.lang == 'zh' %}研究引用{% else %}Research impact{% endif %}</span>
+    <a class="scholar-summary__source" href="{{ scholar.url | escape }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar <span aria-hidden="true">↗</span></a>
+  </div>
+  <dl class="scholar-summary__metrics">
+    <div><dt>{% if page.lang == 'zh' %}總引用次數{% else %}Citations{% endif %}</dt><dd>{{ scholar.metrics.citations }}</dd></div>
+    <div><dt>h-index</dt><dd>{{ scholar.metrics.h_index }}</dd></div>
+    <div><dt>i10-index</dt><dd>{{ scholar.metrics.i10_index }}</dd></div>
+  </dl>
+  <p class="scholar-summary__updated">
+    {% if page.lang == 'zh' %}每日同步 · 最近成功更新{% else %}Synced daily · Last successful update{% endif %}
+    <time datetime="{{ scholar.updated_at }}">{{ scholar.updated_at | date: "%Y-%m-%d %H:%M" }} UTC</time>
+  </p>
+</section>
+{% endif %}

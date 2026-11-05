@@ -18,7 +18,10 @@ layout: compress
 
     <div id="main" role="main">
       <div class="pub-page">
-        {{ content }}
+        <div class="pub-page__list">
+          {{ content }}
+        </div>
+        {% include scholar-summary.html %}
       </div>
     </div>
 
