@@ -35,7 +35,7 @@ lang_url: /
 </p>
 
 <p>
-我的機器人經驗包含在<strong>長春集團資訊中心</strong>擔任 Robotics Software Engineer Intern，為 ALOHA-ViperX 300S 機械手臂建置 NVIDIA Isaac Sim digital twin 與 imitation-learning 平台；在 <strong>Husky Robotics</strong> 為火星探測車做 OWL-ViT perception 與 RealSense depth sensing；以及與 <a href="https://duanjiafei.com/">Jiafei Duan</a> 及 <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> 研究人員進行真實機器人 policy infrastructure 研究合作。
+我的機器人經驗包含在<strong>長春集團資訊中心</strong>擔任 Robotics Software Engineer Intern，為 ALOHA-ViperX 300S 機械手臂建置 NVIDIA Isaac Sim digital twin 與 imitation-learning 平台；在 <strong>Husky Robotics</strong> 為火星探測車做 OWL-ViT perception 與 RealSense depth sensing；以及與 <a href="https://jiafei1224.github.io/">Jiafei Duan</a> 及 <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> 研究人員進行真實機器人 policy infrastructure 研究合作。
 </p>
 
 <p>
@@ -103,7 +103,7 @@ lang_url: /
   <ul>
   <li>
     <span class="news-date">2025.10</span>
-    <span class="news-content">與 <a href="https://duanjiafei.com/"><strong>Jiafei Duan</strong></a> 及 <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> 研究人員的真實機器人 policy 研究合作聚焦於 deployment、teleoperation、evaluation 與 real-time robot infrastructure。</span>
+    <span class="news-content">與 <a href="https://jiafei1224.github.io/"><strong>Jiafei Duan</strong></a> 及 <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> 研究人員的真實機器人 policy 研究合作聚焦於 deployment、teleoperation、evaluation 與 real-time robot infrastructure。</span>
   </li>
   <li>
     <span class="news-date">2025.08</span>

@@ -38,7 +38,7 @@ Hi, I'm Ying-Chun Lee, and you can also call me Thomas. I'm a master's student i
 </p>
 
 <p>
-My robotics experience includes work as a Robotics Software Engineer Intern at <strong>Chang Chun Group</strong>'s Information Center, where I built an NVIDIA Isaac Sim digital twin and imitation-learning platform for the ALOHA-ViperX 300S robotic arm; <strong>Husky Robotics</strong> rover perception with OWL-ViT and RealSense depth sensing; and research collaboration with <a href="https://duanjiafei.com/">Jiafei Duan</a> and collaborators from <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> on real-robot policy infrastructure.
+My robotics experience includes work as a Robotics Software Engineer Intern at <strong>Chang Chun Group</strong>'s Information Center, where I built an NVIDIA Isaac Sim digital twin and imitation-learning platform for the ALOHA-ViperX 300S robotic arm; <strong>Husky Robotics</strong> rover perception with OWL-ViT and RealSense depth sensing; and research collaboration with <a href="https://jiafei1224.github.io/">Jiafei Duan</a> and collaborators from <strong><a href="https://prior.allenai.org/">Ai2 PRIOR</a></strong> on real-robot policy infrastructure.
 </p>
 
 <p>
@@ -106,7 +106,7 @@ Before UW, I conducted research on deep learning-based shoulder ultrasound medic
   <ul>
   <li>
     <span class="news-date">Oct 2025</span>
-    <span class="news-content">Real-robot policy research with <a href="https://duanjiafei.com/"><strong>Jiafei Duan</strong></a> and collaborators from <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> focused on deployment, teleoperation, evaluation, and real-time robot infrastructure.</span>
+    <span class="news-content">Real-robot policy research with <a href="https://jiafei1224.github.io/"><strong>Jiafei Duan</strong></a> and collaborators from <a href="https://prior.allenai.org/"><strong>Ai2 PRIOR</strong></a> focused on deployment, teleoperation, evaluation, and real-time robot infrastructure.</span>
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
