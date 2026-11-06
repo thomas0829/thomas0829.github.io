@@ -14,7 +14,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Refresh citation metrics daily (07:23 UTC); Scholar may rate-limit requests.
+  # Refresh Google Scholar metrics through SerpApi daily (07:23 UTC).
   schedule:
     - cron: '23 7 * * *'
 
@@ -31,29 +31,61 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  scholar:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Verify citation sync regression checks
+        run: python -m unittest discover -s scripts -p test_sync_scholar.py
       - name: Restore last successful Scholar snapshot
         uses: actions/cache/restore@v4
         with:
           path: .cache/scholar.json
           key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: scholar-v1-
-      - name: Sync Google Scholar citations
-        run: python scripts/sync_scholar.py
+      - name: Sync Google Scholar citations through SerpApi
+        id: sync
+        continue-on-error: true
+        run: python scripts/sync_scholar.py --source serpapi --require-fresh
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
       - name: Save last successful Scholar snapshot
+        if: steps.sync.outcome == 'success'
         uses: actions/cache/save@v4
         with:
           path: .cache/scholar.json
           key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Upload Scholar snapshot for the site build
+        if: steps.sync.outcome == 'success' || steps.sync.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scholar-snapshot
+          path: _data/scholar.json
+          if-no-files-found: error
+          retention-days: 1
+      - name: Report citation sync failure
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo "::error::SerpApi synchronization failed. The site will retain its last valid citation snapshot. Check the Scholar job summary."
+          exit 1
+
+  # Build job
+  build:
+    needs: scholar
+    # Content updates can still deploy with saved metrics during an API outage.
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download the refreshed or last valid Scholar snapshot
+        uses: actions/download-artifact@v4
+        with:
+          name: scholar-snapshot
+          path: _data
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4

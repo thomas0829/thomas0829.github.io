@@ -11,7 +11,7 @@
     <div><dt>i10-index</dt><dd>{{ scholar.metrics.i10_index }}</dd></div>
   </dl>
   <p class="scholar-summary__updated">
-    {% if page.lang == 'zh' %}每日同步 · 最近成功更新{% else %}Synced daily · Last successful update{% endif %}
+    {% if page.lang == 'zh' %}每日嘗試同步 · 最近成功更新{% else %}Daily sync attempt · Last successful update{% endif %}
     <time datetime="{{ scholar.updated_at }}">{{ scholar.updated_at | date: "%Y-%m-%d %H:%M" }} UTC</time>
   </p>
 </section>

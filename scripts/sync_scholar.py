@@ -4,9 +4,11 @@ import argparse
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 USER = "mTx-qU0AAAAJ"
@@ -127,30 +129,86 @@ def write_snapshot(path, data):
     temporary.replace(path)
 
 
+def fetch_profile(source):
+    url, timeout = PROFILE_URL + "&pagesize=100", 30
+    if source == "serpapi":
+        key = os.environ.get("SERPAPI_API_KEY", "").strip()
+        if not key:
+            raise ValueError("SERPAPI_API_KEY is not configured; add it as a GitHub Actions repository secret")
+        # Raw Scholar HTML preserves estimated-count asterisks and stable paper IDs.
+        query = urllib.parse.urlencode({
+            "engine": "google_scholar_author", "author_id": USER,
+            "hl": "en", "num": 100, "output": "html", "api_key": key,
+        })
+        url, timeout = "https://serpapi.com/search?" + query, 90
+    with urllib.request.urlopen(url, timeout=timeout) as response:
+        html = response.read().decode("utf-8")
+    if source == "serpapi" and html.lstrip().startswith("{"):
+        raise ValueError("SerpApi returned an API error; check the API key, quota, and service status")
+    return html
+
+
+def safe_error(error):
+    message = str(error)
+    key = os.environ.get("SERPAPI_API_KEY", "").strip()
+    if key:
+        for secret in (key, urllib.parse.quote_plus(key)):
+            message = message.replace(secret, "[redacted]")
+    return message
+
+
+def report_sync(data, error=None):
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not summary:
+        return
+    status = "Fresh data fetched" if error is None else (
+        "Fetch failed; saved data retained" if data else "Fetch failed")
+    lines = ["### Google Scholar synchronization", "", status + "."]
+    if data:
+        lines += [f"Citations: **{data['metrics']['citations']}**.",
+                  f"Last successful fetch: `{data['updated_at']}`.",
+                  f"Snapshot source: `{data.get('source', 'direct')}`."]
+    else:
+        lines += ["No valid saved data is available."]
+    if error is not None:
+        lines += [f"Error: {error}"]
+    with Path(summary).open("a", encoding="utf-8") as stream:
+        stream.write("\n".join(lines) + "\n\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--html", type=Path, help="Parse a saved public-profile response (offline verification)")
+    parser.add_argument("--source", choices=("direct", "serpapi"), default="direct",
+                        help="Use direct Scholar access locally, or SerpApi for the scheduled workflow")
+    parser.add_argument("--require-fresh", action="store_true",
+                        help="Return a failure status when a fetch fails, while preserving saved data")
     args = parser.parse_args()
     previous = [data for path in (OUTPUT, CACHE) if (data := read_snapshot(path))]
     previous = max(previous, key=lambda data: data["updated_at"], default=None)
+    failure = None
     try:
         if args.html:
             html = args.html.read_text(encoding="utf-8")
         else:
-            with urllib.request.urlopen(PROFILE_URL + "&pagesize=100", timeout=30) as response:
-                html = response.read().decode("utf-8")
+            html = fetch_profile(args.source)
         data = parse_profile(html)
+        data["source"] = "saved_html" if args.html else args.source
     except Exception as error:
+        failure = safe_error(error)
         if previous is None:
-            print(f"Scholar sync failed with no saved data: {error}", file=sys.stderr)
+            print(f"Scholar sync failed with no saved data: {failure}", file=sys.stderr)
+            report_sync(None, failure)
             return 1
         data = previous
-        print(f"::warning::Scholar sync unavailable; keeping data from {data['updated_at']}: {error}")
+        warning = f"Scholar sync unavailable; keeping data from {data['updated_at']}: {failure}"
+        print("::warning::" + warning.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A"))
     else:
         write_snapshot(CACHE, data)
         print(f"Synced {len(data['papers'])} papers; {data['metrics']['citations']} citations")
     write_snapshot(OUTPUT, data)
-    return 0
+    report_sync(data, failure)
+    return 1 if failure is not None and args.require_fresh else 0
 
 
 if __name__ == "__main__":
