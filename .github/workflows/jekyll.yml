@@ -14,7 +14,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-  # Refresh citation metrics daily (07:23 UTC); Scholar may rate-limit requests.
+  # Refresh Google Scholar metrics through SerpApi daily (07:23 UTC).
   schedule:
     - cron: '23 7 * * *'
 
@@ -34,24 +34,31 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    outputs:
+      scholar_outcome: ${{ steps.scholar.outcome }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: 477be6df49e8e408e70743ea70a095fe3be12a06
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Verify citation sync regression checks
+        run: python -m unittest discover -s scripts -p test_sync_scholar.py
       - name: Restore last successful Scholar snapshot
         uses: actions/cache/restore@v4
         with:
           path: .cache/scholar.json
           key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: scholar-v1-
-      - name: Sync Google Scholar citations
-        run: python scripts/sync_scholar.py
+      - name: Sync Google Scholar citations through SerpApi
+        id: scholar
+        continue-on-error: true
+        run: python scripts/sync_scholar.py --source serpapi --require-fresh
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
       - name: Save last successful Scholar snapshot
+        if: steps.scholar.outcome == 'success'
         uses: actions/cache/save@v4
         with:
           path: .cache/scholar.json
@@ -86,3 +93,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Report citation sync failure
+        if: needs.build.outputs.scholar_outcome == 'failure'
+        run: |
+          echo "::error::SerpApi synchronization failed. The published site retains its last valid citation snapshot. Check the build job summary."
+          exit 1
