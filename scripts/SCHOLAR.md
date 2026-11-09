@@ -26,10 +26,13 @@ its URL-encoded form. Raw API responses and request URLs are not logged or saved
 
 ## Schedule and failure behavior
 
-The Pages workflow attempts a refresh daily at 07:23 UTC and on pushes to master
-or manual runs. There is one API lookup per run; regression tests mock all network
-requests. SerpApi may serve a cached result for up to one hour. GitHub schedules
-can be delayed or disabled after 60 days of inactivity on a public repository.
+The Pages workflow attempts a refresh daily at 00:00 Seattle time using
+`cron: '0 0 * * *'` and `timezone: 'America/Los_Angeles'`, and on pushes to master
+or manual runs. The timezone automatically follows daylight saving time: midnight
+is 08:00 UTC during standard time and 07:00 UTC during daylight time. There is one
+API lookup per run; regression tests mock all network requests. SerpApi may serve
+a cached result for up to one hour. GitHub schedules can be delayed or disabled
+after 60 days of inactivity on a public repository.
 
 The build runs on Ubuntu 24.04 to keep the existing Ruby 3.1 environment stable.
 If Ruby setup or dependency installation fails, the same setup action runs again
