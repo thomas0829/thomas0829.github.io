@@ -31,6 +31,13 @@ or manual runs. There is one API lookup per run; regression tests mock all netwo
 requests. SerpApi may serve a cached result for up to one hour. GitHub schedules
 can be delayed or disabled after 60 days of inactivity on a public repository.
 
+The build runs on Ubuntu 24.04 to keep the existing Ruby 3.1 environment stable.
+If Ruby setup or dependency installation fails, the same setup action runs again
+after 30 seconds, then once more after 120 seconds if necessary. There are at most
+three setup attempts; a successful attempt skips the remaining retries. If the
+final attempt fails, the build fails and no deployment starts. This recovery does
+not fetch Scholar again or consume another SerpApi lookup.
+
 `--require-fresh` returns failure if the fetch or validation fails, after retaining
 the newest valid snapshot from the repository or Actions cache. The build keeps
 the existing checkout, sync, Jekyll build, and Pages artifact upload sequence.

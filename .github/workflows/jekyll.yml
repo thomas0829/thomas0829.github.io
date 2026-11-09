@@ -33,7 +33,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       scholar_outcome: ${{ steps.scholar.outcome }}
     steps:
@@ -64,12 +64,37 @@ jobs:
           path: .cache/scholar.json
           key: scholar-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Setup Ruby
+        id: ruby_setup
+        continue-on-error: true
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Wait before retrying Ruby setup
+        if: steps.ruby_setup.outcome == 'failure'
+        run: sleep 30
+      - name: Retry Ruby setup
+        id: ruby_retry
+        if: steps.ruby_setup.outcome == 'failure'
+        continue-on-error: true
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+      - name: Wait before the final Ruby setup attempt
+        if: steps.ruby_retry.outcome == 'failure'
+        run: sleep 120
+      - name: Final Ruby setup attempt
+        id: ruby_final
+        if: steps.ruby_retry.outcome == 'failure'
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
